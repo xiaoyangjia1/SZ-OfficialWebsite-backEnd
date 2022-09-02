@@ -1,0 +1,263 @@
+[2022-09-01 23:38:25.166]	local.info	SZ-OfficialWebsite-backEnd/main.go:16	log init success!
+[2022-09-01 23:58:43.674]	local.info	SZ-OfficialWebsite-backEnd/main.go:16	log init success!
+[2022-09-01 23:58:45.744]	local.error	bootstrap/db.go:49	mysql connect failed, err:	{"err": "dial tcp 127.0.0.1:8306: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 08:22:12.795]	local.info	SZ-OfficialWebsite-backEnd/main.go:16	log init success!
+[2022-09-02 08:22:14.873]	local.error	bootstrap/db.go:49	mysql connect failed, err:	{"err": "dial tcp 127.0.0.1:8306: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 08:27:37.989]	local.info	SZ-OfficialWebsite-backEnd/main.go:16	log init success!
+[2022-09-02 08:29:13.900]	local.info	SZ-OfficialWebsite-backEnd/main.go:16	log init success!
+[2022-09-02 08:33:42.495]	local.info	SZ-OfficialWebsite-backEnd/main.go:16	log init success!
+[2022-09-02 09:17:13.883]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 09:21:57.941]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 09:25:29.276]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 09:35:13.556]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 09:55:59.303]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 11:03:05.848]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 11:10:37.174]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 11:29:05.204]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 11:34:16.480]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 11:34:54.589]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 13:58:12.033]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 14:17:05.667]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 14:17:38.256]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 14:33:34.914]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 14:41:20.574]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 15:34:28.590]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 15:34:36.857]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 16:06:43.736]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 16:06:52.026]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 16:21:11.815]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 16:21:20.045]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 16:51:22.304]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 16:51:30.525]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:04:31.889]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:04:40.471]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:16:31.682]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:16:39.911]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:29:22.403]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:29:30.620]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:35:39.496]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:35:47.728]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:38:50.765]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:38:58.982]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:42:14.937]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:42:23.164]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:45:13.304]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:45:21.540]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:46:50.040]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:46:58.280]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:50:11.317]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:50:19.570]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:58:38.184]	local.info	SZ-OfficialWebsite-backEnd/main.go:15	log init success!
+[2022-09-02 17:58:46.876]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 18:02:06.360]	local.info	SZ-OfficialWebsite-backEnd/main.go:15	log init success!
+[2022-09-02 18:02:14.590]	local.error	bootstrap/redis.go:20	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 18:03:13.579]	local.info	SZ-OfficialWebsite-backEnd/main.go:15	log init success!
+[2022-09-02 18:03:21.856]	local.error	bootstrap/redis.go:20	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 18:07:54.094]	local.info	SZ-OfficialWebsite-backEnd/main.go:15	log init success!
+[2022-09-02 18:08:02.323]	local.error	bootstrap/redis.go:22	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 19:01:49.752]	local.info	SZ-OfficialWebsite-backEnd/main.go:15	log init success!
+[2022-09-02 19:07:35.678]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 19:19:35.667]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 19:19:35.710]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error."}
+[2022-09-02 19:39:16.579]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 20:14:16.333]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 20:14:28.523]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:60273->127.0.0.1:6379: i/o timeout"}
+[2022-09-02 20:19:05.622]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 20:19:17.785]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:63388->127.0.0.1:6379: i/o timeout"}
+[2022-09-02 20:31:21.338]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 20:31:33.504]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:57554->127.0.0.1:6379: i/o timeout"}
+[2022-09-02 20:40:44.342]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 20:40:56.505]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:55866->127.0.0.1:6379: i/o timeout"}
+[2022-09-02 20:43:28.158]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 20:43:40.344]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:59148->127.0.0.1:6379: i/o timeout"}
+[2022-09-02 20:45:31.093]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 20:45:33.144]	local.error	bootstrap/db.go:49	mysql connect failed, err:	{"err": "dial tcp 127.0.0.1:3346: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 20:45:45.281]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:60673->127.0.0.1:6379: i/o timeout"}
+
+
+[31m2022/09/02 20:46:10 [Recovery] 2022/09/02 - 20:46:10 panic recovered:
+POST /api/auth/login HTTP/1.1
+Host: localhost:8888
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 53
+Content-Type: text/plain
+Postman-Token: 919739bc-c287-48bc-b5ab-a90ba18e579f
+User-Agent: PostmanRuntime/7.29.2
+
+
+runtime error: invalid memory address or nil pointer dereference
+C:/Program Files/Go/src/runtime/panic.go:260 (0x9ec735)
+	panicmem: panic(memoryError)
+C:/Program Files/Go/src/runtime/signal_windows.go:255 (0x9ec705)
+	sigpanic: panicmem()
+C:/Users/yangqixiang/go/pkg/mod/gorm.io/gorm@v1.23.8/gorm.go:363 (0xf28f98)
+	(*DB).getInstance: if db.clone > 0 {
+C:/Users/yangqixiang/go/pkg/mod/gorm.io/gorm@v1.23.8/chainable_api.go:156 (0xf1fa5b)
+	(*DB).Where: tx = db.getInstance()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42 (0x10daf1e)
+	(*userService).Login: err = global.App.DB.Where("sid = ?", params.Sid).First(&user).Error
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/controllers/app/auth.go:18 (0x10db5bb)
+	Login: if err, user := services.UserService.Login(form); err != nil {
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x10cbfe1)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 (0x10cbfcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x10cb0e6)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 (0x10cb0c9)
+	LoggerWithConfig.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x10ca1f0)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 (0x10c9e58)
+	(*Engine).handleHTTPRequest: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 (0x10c999c)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+C:/Program Files/Go/src/net/http/server.go:2947 (0xcc932b)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+C:/Program Files/Go/src/net/http/server.go:1991 (0xcc4546)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+C:/Program Files/Go/src/runtime/asm_amd64.s:1594 (0xa07360)
+	goexit: BYTE	$0x90	// NOP
+[0m
+[2022-09-02 21:10:16.802]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 21:10:28.961]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:51728->127.0.0.1:6379: i/o timeout"}
+[2022-09-02 22:02:56.700]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 22:03:08.886]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:63330->127.0.0.1:6379: i/o timeout"}
+[2022-09-02 22:51:06.346]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 22:51:18.521]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:64321->127.0.0.1:6379: i/o timeout"}
+
+
+[31m2022/09/02 22:54:15 [Recovery] 2022/09/02 - 22:54:15 panic recovered:
+POST /api/auth/info HTTP/1.1
+Host: localhost:8888
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Authorization: *
+Connection: keep-alive
+Content-Length: 0
+Postman-Token: a2edf691-5b34-4d16-95ee-30faf62b90a5
+User-Agent: PostmanRuntime/7.29.2
+
+
+runtime error: invalid memory address or nil pointer dereference
+C:/Program Files/Go/src/runtime/panic.go:260 (0xa7c735)
+	panicmem: panic(memoryError)
+C:/Program Files/Go/src/runtime/signal_windows.go:255 (0xa7c705)
+	sigpanic: panicmem()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/jwt.go:79 (0x116a858)
+	(*jwtService).IsInBlacklist: joinUnixStr, err := global.App.Redis.Get(context.Background(), jwtService.getBlackListKey(tokenStr)).Result()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/middleware/jwt.go:27 (0x116c110)
+	JWTAuth.func1: if err != nil || services.JwtService.IsInBlacklist(tokenStr) {
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115bfe1)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 (0x115bfcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115b0e6)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 (0x115b0c9)
+	LoggerWithConfig.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115a1f0)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 (0x1159e58)
+	(*Engine).handleHTTPRequest: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 (0x115999c)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+C:/Program Files/Go/src/net/http/server.go:2947 (0xd5932b)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+C:/Program Files/Go/src/net/http/server.go:1991 (0xd54546)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+C:/Program Files/Go/src/runtime/asm_amd64.s:1594 (0xa97360)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/09/02 22:55:17 [Recovery] 2022/09/02 - 22:55:17 panic recovered:
+POST /api/auth/info HTTP/1.1
+Host: localhost:8888
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Authorization: *
+Connection: keep-alive
+Content-Length: 0
+Postman-Token: 1551314b-5e7a-4f18-929a-553203f1f65a
+User-Agent: PostmanRuntime/7.29.2
+
+
+runtime error: invalid memory address or nil pointer dereference
+C:/Program Files/Go/src/runtime/panic.go:260 (0xa7c735)
+	panicmem: panic(memoryError)
+C:/Program Files/Go/src/runtime/signal_windows.go:255 (0xa7c705)
+	sigpanic: panicmem()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/jwt.go:79 (0x116a858)
+	(*jwtService).IsInBlacklist: joinUnixStr, err := global.App.Redis.Get(context.Background(), jwtService.getBlackListKey(tokenStr)).Result()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/middleware/jwt.go:27 (0x116c110)
+	JWTAuth.func1: if err != nil || services.JwtService.IsInBlacklist(tokenStr) {
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115bfe1)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 (0x115bfcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115b0e6)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 (0x115b0c9)
+	LoggerWithConfig.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115a1f0)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 (0x1159e58)
+	(*Engine).handleHTTPRequest: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 (0x115999c)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+C:/Program Files/Go/src/net/http/server.go:2947 (0xd5932b)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+C:/Program Files/Go/src/net/http/server.go:1991 (0xd54546)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+C:/Program Files/Go/src/runtime/asm_amd64.s:1594 (0xa97360)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/09/02 22:55:30 [Recovery] 2022/09/02 - 22:55:30 panic recovered:
+POST /api/auth/info HTTP/1.1
+Host: localhost:8888
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Authorization: *
+Connection: keep-alive
+Content-Length: 0
+Postman-Token: 326839f7-4111-4727-9429-ecd71232d516
+User-Agent: PostmanRuntime/7.29.2
+
+
+runtime error: invalid memory address or nil pointer dereference
+C:/Program Files/Go/src/runtime/panic.go:260 (0xa7c735)
+	panicmem: panic(memoryError)
+C:/Program Files/Go/src/runtime/signal_windows.go:255 (0xa7c705)
+	sigpanic: panicmem()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/jwt.go:79 (0x116a858)
+	(*jwtService).IsInBlacklist: joinUnixStr, err := global.App.Redis.Get(context.Background(), jwtService.getBlackListKey(tokenStr)).Result()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/middleware/jwt.go:27 (0x116c110)
+	JWTAuth.func1: if err != nil || services.JwtService.IsInBlacklist(tokenStr) {
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115bfe1)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 (0x115bfcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115b0e6)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 (0x115b0c9)
+	LoggerWithConfig.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115a1f0)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 (0x1159e58)
+	(*Engine).handleHTTPRequest: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 (0x115999c)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+C:/Program Files/Go/src/net/http/server.go:2947 (0xd5932b)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+C:/Program Files/Go/src/net/http/server.go:1991 (0xd54546)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+C:/Program Files/Go/src/runtime/asm_amd64.s:1594 (0xa97360)
+	goexit: BYTE	$0x90	// NOP
+[0m
+[2022-09-02 22:55:46.525]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 22:57:47.467]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!

@@ -1,0 +1,195 @@
+
+2022/09/01 23:58:45 G:/project/毕设/SZ-OfficialWebsite-backEnd/bootstrap/db.go:45
+[error] failed to initialize database, got error dial tcp 127.0.0.1:8306: connectex: No connection could be made because the target machine actively refused it.
+
+2022/09/02 08:22:14 G:/project/毕设/SZ-OfficialWebsite-backEnd/bootstrap/db.go:45
+[error] failed to initialize database, got error dial tcp 127.0.0.1:8306: connectex: No connection could be made because the target machine actively refused it.
+
+2022/09/02 11:11:34 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:18 Error 1146: Table 'sz-officialwebsite.users' doesn't exist
+[18.363ms] [rows:0] SELECT `id` FROM `users` WHERE mobile = '18927641546' AND `users`.`deleted_at` IS NULL ORDER BY `users`.`id` LIMIT 1
+
+2022/09/02 11:11:34 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:24 Error 1146: Table 'sz-officialwebsite.users' doesn't exist
+[3.294ms] [rows:0] INSERT INTO `users` (`name`,`mobile`,`password`,`created_at`,`updated_at`,`deleted_at`) VALUES ('www','18927641546','$2a$04$K4AaezLnTK4upzHhci.3jOIaatevu76o5VX0w6OKpzLkE8GB3hr4K','2022-09-02 11:11:34.172','2022-09-02 11:11:34.172',NULL)
+
+2022/09/02 11:30:23 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29
+[17.568ms] [rows:1] SELECT `id` FROM `user` WHERE sid = '3119005073' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:30:31 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[2.439ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005074' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:30:31 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35 Error 1406: Data too long for column 'password' at row 1
+[3.998ms] [rows:0] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005074','$2a$04$9BLxSF7rZwSkI9vOmFz8F.e3Yjq9wL3Hnu2ucyNef.F8E8fkmpBBq')
+
+2022/09/02 11:30:56 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[1.858ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005074' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:30:56 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35 Error 1406: Data too long for column 'password' at row 1
+[0.689ms] [rows:0] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005074','$2a$04$x8UzqZW58nabDhWEIWcZz.olJCyA4FWX6Pq651MsE3jpeuT17tFXO')
+
+2022/09/02 11:32:25 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[1.357ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:32:25 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35 Error 1406: Data too long for column 'password' at row 1
+[1.125ms] [rows:0] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005075','$2a$04$4jWz4fNbeTFy/Z.zj0/UpuBoXzLNva.3ydxRxmE8wgCdISKKHJdyy')
+
+2022/09/02 11:33:31 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[1.629ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:33:31 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35 Error 1062: Duplicate entry '0' for key 'PRIMARY'
+[1.478ms] [rows:0] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005075','$2a$04$0V5tBsKAlxP3Z50GqmGJKuRcJ6jILfLmS6xYQH34KlBChIBM4ZhS6')
+
+2022/09/02 11:33:37 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[0.887ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:33:37 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35 Error 1062: Duplicate entry '0' for key 'PRIMARY'
+[0.527ms] [rows:0] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005075','$2a$04$6XO9Pd92aQra90os34BiM.44eZiKQYpXReFp9lITfU4JHuCWq1KWe')
+
+2022/09/02 11:34:04 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[1.443ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:34:04 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35 Error 1062: Duplicate entry '0' for key 'PRIMARY'
+[1.535ms] [rows:0] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005075','$2a$04$brrGgMNyQGm9Nt8h/CD4iOetf5kYRMQdvd1C.dSonVmCibD9iGTEq')
+
+2022/09/02 11:34:22 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[4.080ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:34:22 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35 Error 1062: Duplicate entry '0' for key 'PRIMARY'
+[1.522ms] [rows:0] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005075','$2a$04$Tu1ggpGzXiX4lkmufbnFS.yU.zF6xvvMq6s1KbIeeiyPT3YlmlMGS')
+
+2022/09/02 11:34:59 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[2.178ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:34:59 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35
+[2.540ms] [rows:1] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005075','$2a$04$VEsh2Uupd42/VIn/9VNb1eFUiU2W38rL7ugSzrEpPGetd0fSyQUva')
+
+2022/09/02 13:58:34 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[9.850ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005076' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 13:58:34 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35
+[5.021ms] [rows:1] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005076','$2a$04$WNLFBr5N4broDbeXXHETReQn9.uKfDSP4fHollwjcVMCdBNrFCw3W')
+
+2022/09/02 14:19:39 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:41
+[8.251ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005076' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 14:33:47 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[1.148ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005076' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 14:43:28 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[10.953ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005073' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 14:44:13 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[0.870ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005073' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 14:44:47 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[1.135ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 15:17:15 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[9.604ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 15:18:18 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:52
+[2.157ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = 2 ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 15:40:50 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[28.692ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 16:47:35 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[26.889ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 16:53:39 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[11.548ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 17:01:15 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[1.215ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 17:06:34 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[4.969ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 17:17:38 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[11.772ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 17:29:46 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[6.807ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 17:36:11 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[8.455ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 17:39:13 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[3.030ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 17:43:31 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[4.323ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 17:45:40 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[5.348ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 17:47:14 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[5.317ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 17:50:36 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[8.137ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 17:59:13 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[11.042ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 19:03:03 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[13.523ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 19:07:57 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[7.471ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 19:20:13 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[8.118ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 19:22:15 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[10.542ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 19:39:29 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[5.478ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 19:39:43 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:52
+[1.551ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = 2 ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 19:39:43 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:52
+[1.132ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = 2 ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 20:41:17 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[7.134ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 20:44:56 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[4.938ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 20:45:01 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[1.675ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 20:45:33 G:/project/毕设/SZ-OfficialWebsite-backEnd/bootstrap/db.go:45
+[error] failed to initialize database, got error dial tcp 127.0.0.1:3346: connectex: No connection could be made because the target machine actively refused it.
+
+2022/09/02 22:05:03 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:19 record not found
+[41.550ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005078' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 22:05:03 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:25
+[20.154ms] [rows:1] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005078','$2a$04$ANvutkg7o8WIb5wqv8buwuOPWnwpWrrCZspuYTKLPJlMauYoZqaeO')
+
+2022/09/02 22:52:04 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:19 record not found
+[4.765ms] [rows:0] SELECT `id` FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 22:52:04 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:25
+[2.570ms] [rows:1] INSERT INTO `user` (`email`,`password`) VALUES ('3417982712@qq.com','$2a$04$AvsrbOuy518P37Fd7jHvl.eSuvztS5lT710vg2pX6gM.rWH21pcVu')
+
+2022/09/02 22:53:53 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.292ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 22:55:58 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[1.758ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 22:56:10 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:41
+[3.424ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = 5 ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 22:56:10 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:41
+[0.854ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = 5 ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 22:58:13 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[2.680ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 22:58:26 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:41
+[5.229ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = 5 ORDER BY `user`.`id` LIMIT 1

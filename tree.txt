@@ -1,0 +1,78 @@
+卷 Work 的文件夹 PATH 列表
+卷序列号为 6283-957F
+G:.
+│  config.yaml
+│  go.mod
+│  go.sum
+│  main.go
+│  README.md
+│  tree.txt
+│  
+├─app
+│  ├─common
+│  │  ├─request
+│  │  │      user.go
+│  │  │      validator.go
+│  │  │      
+│  │  └─response
+│  │          response.go
+│  │          
+│  ├─controllers
+│  │  └─app
+│  │          auth.go
+│  │          user.go
+│  │          
+│  ├─middleware
+│  │      cors.go
+│  │      jwt.go
+│  │      recovery.go
+│  │      
+│  ├─models
+│  │      common.go
+│  │      user.go
+│  │      
+│  └─services
+│          jwt.go
+│          user.go
+│          
+├─bootstrap
+│      config.go
+│      db.go
+│      log.go
+│      redis.go
+│      router.go
+│      validator.go
+│      
+├─config
+│      app.go
+│      config.go
+│      database.go
+│      jwt.go
+│      log.go
+│      redis.go
+│      
+├─global
+│      app.go
+│      error.go
+│      lock.go
+│      
+├─routes
+│      api.go
+│      
+├─static
+│  └─dist
+│          favicon.ico
+│          index.html
+│          
+├─storage
+│  └─logs
+│          app.log
+│          sql.log
+│          
+└─utils
+        bcrypt.go
+        directory.go
+        md5.go
+        str.go
+        validator.go
+        
