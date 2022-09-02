@@ -21,3 +21,38 @@
 [2022-09-02 14:17:38.256]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
 [2022-09-02 14:33:34.914]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
 [2022-09-02 14:41:20.574]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 15:34:28.590]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 15:34:36.857]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 16:06:43.736]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 16:06:52.026]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 16:21:11.815]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 16:21:20.045]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 16:51:22.304]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 16:51:30.525]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:04:31.889]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:04:40.471]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:16:31.682]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:16:39.911]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:29:22.403]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:29:30.620]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:35:39.496]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:35:47.728]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:38:50.765]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:38:58.982]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:42:14.937]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:42:23.164]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:45:13.304]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:45:21.540]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:46:50.040]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:46:58.280]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:50:11.317]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 17:50:19.570]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 17:58:38.184]	local.info	SZ-OfficialWebsite-backEnd/main.go:15	log init success!
+[2022-09-02 17:58:46.876]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 18:02:06.360]	local.info	SZ-OfficialWebsite-backEnd/main.go:15	log init success!
+[2022-09-02 18:02:14.590]	local.error	bootstrap/redis.go:20	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 18:03:13.579]	local.info	SZ-OfficialWebsite-backEnd/main.go:15	log init success!
+[2022-09-02 18:03:21.856]	local.error	bootstrap/redis.go:20	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 18:07:54.094]	local.info	SZ-OfficialWebsite-backEnd/main.go:15	log init success!
+[2022-09-02 18:08:02.323]	local.error	bootstrap/redis.go:22	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 19:01:49.752]	local.info	SZ-OfficialWebsite-backEnd/main.go:15	log init success!
