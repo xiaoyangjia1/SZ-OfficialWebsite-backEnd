@@ -1,6 +1,7 @@
 package services
 
 import (
+    "strconv"
     "errors"
     "SZ-OfficialWebsite-backEnd/app/common/request"
     "SZ-OfficialWebsite-backEnd/app/models"
@@ -33,5 +34,24 @@ func (userService *userService) Register(params request.Register) (err error, us
     }
     user = models.User{Sid: params.Sid, Password: utils.BcryptMake([]byte(params.Password))}
     err = global.App.DB.Create(&user).Error
+    return
+}
+
+// Login 登录
+func (userService *userService) Login(params request.Login) (err error, user *models.User) {
+    err = global.App.DB.Where("sid = ?", params.Sid).First(&user).Error
+    if err != nil || !utils.BcryptMakeCheck([]byte(params.Password), user.Password) {
+        err = errors.New("用户名不存在或密码错误")
+    }
+    return
+}
+
+// GetUserInfo 获取用户信息
+func (userService *userService) GetUserInfo(id string) (err error, user models.User) {
+    intId, err := strconv.Atoi(id)
+    err = global.App.DB.First(&user, intId).Error
+    if err != nil {
+        err = errors.New("数据不存在")
+    }
     return
 }

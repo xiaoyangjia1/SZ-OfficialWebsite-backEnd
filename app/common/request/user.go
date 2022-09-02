@@ -28,3 +28,15 @@ func (register Register) GetMessages() ValidatorMessages {
         "Password.required": "密码不能为空",
     }
 }
+
+type Login struct {
+    Sid string `form:"sid" json:"sid" binding:"required"`
+    Password string `form:"password" json:"password" binding:"required"`
+}
+
+func (login Login) GetMessages() ValidatorMessages {
+    return ValidatorMessages{
+        "Sid.required": "学号不能为空",
+        "Password.required": "密码不能为空",
+    }
+}

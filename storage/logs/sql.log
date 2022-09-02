@@ -61,3 +61,24 @@
 
 2022/09/02 11:34:59 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35
 [2.540ms] [rows:1] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005075','$2a$04$VEsh2Uupd42/VIn/9VNb1eFUiU2W38rL7ugSzrEpPGetd0fSyQUva')
+
+2022/09/02 13:58:34 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[9.850ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005076' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 13:58:34 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35
+[5.021ms] [rows:1] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005076','$2a$04$WNLFBr5N4broDbeXXHETReQn9.uKfDSP4fHollwjcVMCdBNrFCw3W')
+
+2022/09/02 14:19:39 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:41
+[8.251ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005076' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 14:33:47 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[1.148ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005076' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 14:43:28 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[10.953ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005073' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 14:44:13 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[0.870ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005073' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 14:44:47 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[1.135ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
