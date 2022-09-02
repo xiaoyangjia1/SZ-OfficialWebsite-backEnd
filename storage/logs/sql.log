@@ -163,3 +163,33 @@
 
 2022/09/02 20:45:33 G:/project/毕设/SZ-OfficialWebsite-backEnd/bootstrap/db.go:45
 [error] failed to initialize database, got error dial tcp 127.0.0.1:3346: connectex: No connection could be made because the target machine actively refused it.
+
+2022/09/02 22:05:03 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:19 record not found
+[41.550ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005078' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 22:05:03 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:25
+[20.154ms] [rows:1] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005078','$2a$04$ANvutkg7o8WIb5wqv8buwuOPWnwpWrrCZspuYTKLPJlMauYoZqaeO')
+
+2022/09/02 22:52:04 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:19 record not found
+[4.765ms] [rows:0] SELECT `id` FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 22:52:04 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:25
+[2.570ms] [rows:1] INSERT INTO `user` (`email`,`password`) VALUES ('3417982712@qq.com','$2a$04$AvsrbOuy518P37Fd7jHvl.eSuvztS5lT710vg2pX6gM.rWH21pcVu')
+
+2022/09/02 22:53:53 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.292ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 22:55:58 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[1.758ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 22:56:10 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:41
+[3.424ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = 5 ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 22:56:10 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:41
+[0.854ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = 5 ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 22:58:13 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[2.680ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 22:58:26 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:41
+[5.229ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = 5 ORDER BY `user`.`id` LIMIT 1

@@ -12,7 +12,7 @@ import "strconv"
 // }
 type User struct {
 	ID    int
-	Sid       string
+	Email       string
 	Password         string
 }
 func (User) TableName() string {

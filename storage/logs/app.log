@@ -121,3 +121,143 @@ C:/Program Files/Go/src/net/http/server.go:1991 (0xcc4546)
 C:/Program Files/Go/src/runtime/asm_amd64.s:1594 (0xa07360)
 	goexit: BYTE	$0x90	// NOP
 [0m
+[2022-09-02 21:10:16.802]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 21:10:28.961]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:51728->127.0.0.1:6379: i/o timeout"}
+[2022-09-02 22:02:56.700]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 22:03:08.886]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:63330->127.0.0.1:6379: i/o timeout"}
+[2022-09-02 22:51:06.346]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 22:51:18.521]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:64321->127.0.0.1:6379: i/o timeout"}
+
+
+[31m2022/09/02 22:54:15 [Recovery] 2022/09/02 - 22:54:15 panic recovered:
+POST /api/auth/info HTTP/1.1
+Host: localhost:8888
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Authorization: *
+Connection: keep-alive
+Content-Length: 0
+Postman-Token: a2edf691-5b34-4d16-95ee-30faf62b90a5
+User-Agent: PostmanRuntime/7.29.2
+
+
+runtime error: invalid memory address or nil pointer dereference
+C:/Program Files/Go/src/runtime/panic.go:260 (0xa7c735)
+	panicmem: panic(memoryError)
+C:/Program Files/Go/src/runtime/signal_windows.go:255 (0xa7c705)
+	sigpanic: panicmem()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/jwt.go:79 (0x116a858)
+	(*jwtService).IsInBlacklist: joinUnixStr, err := global.App.Redis.Get(context.Background(), jwtService.getBlackListKey(tokenStr)).Result()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/middleware/jwt.go:27 (0x116c110)
+	JWTAuth.func1: if err != nil || services.JwtService.IsInBlacklist(tokenStr) {
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115bfe1)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 (0x115bfcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115b0e6)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 (0x115b0c9)
+	LoggerWithConfig.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115a1f0)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 (0x1159e58)
+	(*Engine).handleHTTPRequest: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 (0x115999c)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+C:/Program Files/Go/src/net/http/server.go:2947 (0xd5932b)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+C:/Program Files/Go/src/net/http/server.go:1991 (0xd54546)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+C:/Program Files/Go/src/runtime/asm_amd64.s:1594 (0xa97360)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/09/02 22:55:17 [Recovery] 2022/09/02 - 22:55:17 panic recovered:
+POST /api/auth/info HTTP/1.1
+Host: localhost:8888
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Authorization: *
+Connection: keep-alive
+Content-Length: 0
+Postman-Token: 1551314b-5e7a-4f18-929a-553203f1f65a
+User-Agent: PostmanRuntime/7.29.2
+
+
+runtime error: invalid memory address or nil pointer dereference
+C:/Program Files/Go/src/runtime/panic.go:260 (0xa7c735)
+	panicmem: panic(memoryError)
+C:/Program Files/Go/src/runtime/signal_windows.go:255 (0xa7c705)
+	sigpanic: panicmem()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/jwt.go:79 (0x116a858)
+	(*jwtService).IsInBlacklist: joinUnixStr, err := global.App.Redis.Get(context.Background(), jwtService.getBlackListKey(tokenStr)).Result()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/middleware/jwt.go:27 (0x116c110)
+	JWTAuth.func1: if err != nil || services.JwtService.IsInBlacklist(tokenStr) {
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115bfe1)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 (0x115bfcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115b0e6)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 (0x115b0c9)
+	LoggerWithConfig.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115a1f0)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 (0x1159e58)
+	(*Engine).handleHTTPRequest: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 (0x115999c)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+C:/Program Files/Go/src/net/http/server.go:2947 (0xd5932b)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+C:/Program Files/Go/src/net/http/server.go:1991 (0xd54546)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+C:/Program Files/Go/src/runtime/asm_amd64.s:1594 (0xa97360)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/09/02 22:55:30 [Recovery] 2022/09/02 - 22:55:30 panic recovered:
+POST /api/auth/info HTTP/1.1
+Host: localhost:8888
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Authorization: *
+Connection: keep-alive
+Content-Length: 0
+Postman-Token: 326839f7-4111-4727-9429-ecd71232d516
+User-Agent: PostmanRuntime/7.29.2
+
+
+runtime error: invalid memory address or nil pointer dereference
+C:/Program Files/Go/src/runtime/panic.go:260 (0xa7c735)
+	panicmem: panic(memoryError)
+C:/Program Files/Go/src/runtime/signal_windows.go:255 (0xa7c705)
+	sigpanic: panicmem()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/jwt.go:79 (0x116a858)
+	(*jwtService).IsInBlacklist: joinUnixStr, err := global.App.Redis.Get(context.Background(), jwtService.getBlackListKey(tokenStr)).Result()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/middleware/jwt.go:27 (0x116c110)
+	JWTAuth.func1: if err != nil || services.JwtService.IsInBlacklist(tokenStr) {
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115bfe1)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 (0x115bfcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115b0e6)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 (0x115b0c9)
+	LoggerWithConfig.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x115a1f0)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 (0x1159e58)
+	(*Engine).handleHTTPRequest: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 (0x115999c)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+C:/Program Files/Go/src/net/http/server.go:2947 (0xd5932b)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+C:/Program Files/Go/src/net/http/server.go:1991 (0xd54546)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+C:/Program Files/Go/src/runtime/asm_amd64.s:1594 (0xa97360)
+	goexit: BYTE	$0x90	// NOP
+[0m
+[2022-09-02 22:55:46.525]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 22:57:47.467]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
