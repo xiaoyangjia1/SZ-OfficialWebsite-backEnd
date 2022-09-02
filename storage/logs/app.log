@@ -1,3 +1,8 @@
 [2022-09-01 23:38:25.166]	local.info	SZ-OfficialWebsite-backEnd/main.go:16	log init success!
 [2022-09-01 23:58:43.674]	local.info	SZ-OfficialWebsite-backEnd/main.go:16	log init success!
 [2022-09-01 23:58:45.744]	local.error	bootstrap/db.go:49	mysql connect failed, err:	{"err": "dial tcp 127.0.0.1:8306: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 08:22:12.795]	local.info	SZ-OfficialWebsite-backEnd/main.go:16	log init success!
+[2022-09-02 08:22:14.873]	local.error	bootstrap/db.go:49	mysql connect failed, err:	{"err": "dial tcp 127.0.0.1:8306: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 08:27:37.989]	local.info	SZ-OfficialWebsite-backEnd/main.go:16	log init success!
+[2022-09-02 08:29:13.900]	local.info	SZ-OfficialWebsite-backEnd/main.go:16	log init success!
+[2022-09-02 08:33:42.495]	local.info	SZ-OfficialWebsite-backEnd/main.go:16	log init success!
