@@ -4,3 +4,60 @@
 
 2022/09/02 08:22:14 G:/project/毕设/SZ-OfficialWebsite-backEnd/bootstrap/db.go:45
 [error] failed to initialize database, got error dial tcp 127.0.0.1:8306: connectex: No connection could be made because the target machine actively refused it.
+
+2022/09/02 11:11:34 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:18 Error 1146: Table 'sz-officialwebsite.users' doesn't exist
+[18.363ms] [rows:0] SELECT `id` FROM `users` WHERE mobile = '18927641546' AND `users`.`deleted_at` IS NULL ORDER BY `users`.`id` LIMIT 1
+
+2022/09/02 11:11:34 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:24 Error 1146: Table 'sz-officialwebsite.users' doesn't exist
+[3.294ms] [rows:0] INSERT INTO `users` (`name`,`mobile`,`password`,`created_at`,`updated_at`,`deleted_at`) VALUES ('www','18927641546','$2a$04$K4AaezLnTK4upzHhci.3jOIaatevu76o5VX0w6OKpzLkE8GB3hr4K','2022-09-02 11:11:34.172','2022-09-02 11:11:34.172',NULL)
+
+2022/09/02 11:30:23 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29
+[17.568ms] [rows:1] SELECT `id` FROM `user` WHERE sid = '3119005073' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:30:31 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[2.439ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005074' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:30:31 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35 Error 1406: Data too long for column 'password' at row 1
+[3.998ms] [rows:0] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005074','$2a$04$9BLxSF7rZwSkI9vOmFz8F.e3Yjq9wL3Hnu2ucyNef.F8E8fkmpBBq')
+
+2022/09/02 11:30:56 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[1.858ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005074' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:30:56 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35 Error 1406: Data too long for column 'password' at row 1
+[0.689ms] [rows:0] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005074','$2a$04$x8UzqZW58nabDhWEIWcZz.olJCyA4FWX6Pq651MsE3jpeuT17tFXO')
+
+2022/09/02 11:32:25 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[1.357ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:32:25 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35 Error 1406: Data too long for column 'password' at row 1
+[1.125ms] [rows:0] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005075','$2a$04$4jWz4fNbeTFy/Z.zj0/UpuBoXzLNva.3ydxRxmE8wgCdISKKHJdyy')
+
+2022/09/02 11:33:31 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[1.629ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:33:31 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35 Error 1062: Duplicate entry '0' for key 'PRIMARY'
+[1.478ms] [rows:0] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005075','$2a$04$0V5tBsKAlxP3Z50GqmGJKuRcJ6jILfLmS6xYQH34KlBChIBM4ZhS6')
+
+2022/09/02 11:33:37 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[0.887ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:33:37 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35 Error 1062: Duplicate entry '0' for key 'PRIMARY'
+[0.527ms] [rows:0] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005075','$2a$04$6XO9Pd92aQra90os34BiM.44eZiKQYpXReFp9lITfU4JHuCWq1KWe')
+
+2022/09/02 11:34:04 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[1.443ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:34:04 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35 Error 1062: Duplicate entry '0' for key 'PRIMARY'
+[1.535ms] [rows:0] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005075','$2a$04$brrGgMNyQGm9Nt8h/CD4iOetf5kYRMQdvd1C.dSonVmCibD9iGTEq')
+
+2022/09/02 11:34:22 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[4.080ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:34:22 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35 Error 1062: Duplicate entry '0' for key 'PRIMARY'
+[1.522ms] [rows:0] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005075','$2a$04$Tu1ggpGzXiX4lkmufbnFS.yU.zF6xvvMq6s1KbIeeiyPT3YlmlMGS')
+
+2022/09/02 11:34:59 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:29 record not found
+[2.178ms] [rows:0] SELECT `id` FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 11:34:59 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:35
+[2.540ms] [rows:1] INSERT INTO `user` (`sid`,`password`) VALUES ('3119005075','$2a$04$VEsh2Uupd42/VIn/9VNb1eFUiU2W38rL7ugSzrEpPGetd0fSyQUva')
