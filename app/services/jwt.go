@@ -7,6 +7,7 @@ import (
     "time"
     "strconv"
     "context"
+    "errors"
 )
 
 type jwtService struct {
@@ -86,4 +87,14 @@ func (jwtService *jwtService) IsInBlacklist(tokenStr string) bool {
     }
         
     return true
+}
+
+func (jwtService *jwtService) GetUserInfo(GuardName string, id string) (err error, user JwtUser) {
+    switch GuardName {
+    case AppGuardName:
+        return UserService.GetUserInfo(id)
+    default:
+        err = errors.New("guard " + GuardName +" does not exist")
+    }
+    return
 }

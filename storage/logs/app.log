@@ -56,3 +56,13 @@
 [2022-09-02 18:07:54.094]	local.info	SZ-OfficialWebsite-backEnd/main.go:15	log init success!
 [2022-09-02 18:08:02.323]	local.error	bootstrap/redis.go:22	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
 [2022-09-02 19:01:49.752]	local.info	SZ-OfficialWebsite-backEnd/main.go:15	log init success!
+[2022-09-02 19:07:35.678]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 19:19:35.667]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 19:19:35.710]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error."}
+[2022-09-02 19:39:16.579]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 20:14:16.333]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 20:14:28.523]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:60273->127.0.0.1:6379: i/o timeout"}
+[2022-09-02 20:19:05.622]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 20:19:17.785]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:63388->127.0.0.1:6379: i/o timeout"}
+[2022-09-02 20:31:21.338]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 20:31:33.504]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:57554->127.0.0.1:6379: i/o timeout"}

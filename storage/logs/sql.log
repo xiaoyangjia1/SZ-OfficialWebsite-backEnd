@@ -133,3 +133,21 @@
 
 2022/09/02 19:03:03 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
 [13.523ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 19:07:57 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[7.471ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 19:20:13 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[8.118ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 19:22:15 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[10.542ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 19:39:29 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[5.478ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 19:39:43 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:52
+[1.551ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = 2 ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 19:39:43 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:52
+[1.132ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = 2 ORDER BY `user`.`id` LIMIT 1

@@ -8,3 +8,4 @@ type Configuration struct {
     Redis Redis `mapstructure:"redis" json:"redis" yaml:"redis"`
 }
 
+
