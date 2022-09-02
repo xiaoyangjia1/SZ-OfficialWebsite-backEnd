@@ -151,3 +151,15 @@
 
 2022/09/02 19:39:43 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:52
 [1.132ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = 2 ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 20:41:17 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[7.134ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 20:44:56 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[4.938ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 20:45:01 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42
+[1.675ms] [rows:1] SELECT * FROM `user` WHERE sid = '3119005075' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/02 20:45:33 G:/project/毕设/SZ-OfficialWebsite-backEnd/bootstrap/db.go:45
+[error] failed to initialize database, got error dial tcp 127.0.0.1:3346: connectex: No connection could be made because the target machine actively refused it.

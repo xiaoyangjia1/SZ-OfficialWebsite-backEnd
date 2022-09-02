@@ -5,6 +5,7 @@ import (
     "github.com/gin-gonic/gin"
     "SZ-OfficialWebsite-backEnd/global"
     "SZ-OfficialWebsite-backEnd/routes"
+	"SZ-OfficialWebsite-backEnd/app/middleware"
 	"log"
     "net/http"
     "os"
@@ -14,7 +15,13 @@ import (
 )
 
 func setupRouter() *gin.Engine {
-    router := gin.Default()
+	if global.App.Config.App.Env == "production" {
+        gin.SetMode(gin.ReleaseMode)
+    }
+    router := gin.New()
+    router.Use(gin.Logger(), middleware.CustomRecovery())
+
+
 
 	// 前端项目静态资源
     router.StaticFile("/", "./static/dist/index.html")

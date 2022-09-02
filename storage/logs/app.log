@@ -66,3 +66,58 @@
 [2022-09-02 20:19:17.785]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:63388->127.0.0.1:6379: i/o timeout"}
 [2022-09-02 20:31:21.338]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
 [2022-09-02 20:31:33.504]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:57554->127.0.0.1:6379: i/o timeout"}
+[2022-09-02 20:40:44.342]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 20:40:56.505]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:55866->127.0.0.1:6379: i/o timeout"}
+[2022-09-02 20:43:28.158]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 20:43:40.344]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:59148->127.0.0.1:6379: i/o timeout"}
+[2022-09-02 20:45:31.093]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 20:45:33.144]	local.error	bootstrap/db.go:49	mysql connect failed, err:	{"err": "dial tcp 127.0.0.1:3346: connectex: No connection could be made because the target machine actively refused it."}
+[2022-09-02 20:45:45.281]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "read tcp 127.0.0.1:60673->127.0.0.1:6379: i/o timeout"}
+
+
+[31m2022/09/02 20:46:10 [Recovery] 2022/09/02 - 20:46:10 panic recovered:
+POST /api/auth/login HTTP/1.1
+Host: localhost:8888
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 53
+Content-Type: text/plain
+Postman-Token: 919739bc-c287-48bc-b5ab-a90ba18e579f
+User-Agent: PostmanRuntime/7.29.2
+
+
+runtime error: invalid memory address or nil pointer dereference
+C:/Program Files/Go/src/runtime/panic.go:260 (0x9ec735)
+	panicmem: panic(memoryError)
+C:/Program Files/Go/src/runtime/signal_windows.go:255 (0x9ec705)
+	sigpanic: panicmem()
+C:/Users/yangqixiang/go/pkg/mod/gorm.io/gorm@v1.23.8/gorm.go:363 (0xf28f98)
+	(*DB).getInstance: if db.clone > 0 {
+C:/Users/yangqixiang/go/pkg/mod/gorm.io/gorm@v1.23.8/chainable_api.go:156 (0xf1fa5b)
+	(*DB).Where: tx = db.getInstance()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:42 (0x10daf1e)
+	(*userService).Login: err = global.App.DB.Where("sid = ?", params.Sid).First(&user).Error
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/controllers/app/auth.go:18 (0x10db5bb)
+	Login: if err, user := services.UserService.Login(form); err != nil {
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x10cbfe1)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 (0x10cbfcc)
+	CustomRecoveryWithWriter.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x10cb0e6)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 (0x10cb0c9)
+	LoggerWithConfig.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x10ca1f0)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 (0x10c9e58)
+	(*Engine).handleHTTPRequest: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 (0x10c999c)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+C:/Program Files/Go/src/net/http/server.go:2947 (0xcc932b)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+C:/Program Files/Go/src/net/http/server.go:1991 (0xcc4546)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+C:/Program Files/Go/src/runtime/asm_amd64.s:1594 (0xa07360)
+	goexit: BYTE	$0x90	// NOP
+[0m
