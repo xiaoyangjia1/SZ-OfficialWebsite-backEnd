@@ -21,6 +21,7 @@ func (positionService *positionService) PostJob(params request.Position) (err er
   dateStr := t.Format("2006-01-02 15:04:05")
 
     position = models.Position{	
+        Status: 1,
         Pid: "SZ2023FE",
         Title: params.Title, 
         Batch: params.Batch,
@@ -41,5 +42,9 @@ func (positionService *positionService) PostJob(params request.Position) (err er
 func (positionService *positionService) GetJobs() (err error, position []models.Position) {
     err = global.App.DB.Find(&position).Error
     return 
-  }
+}
+func (positionService *positionService) ChangeJobStatus(Position_id request.Position_id) (err error, position models.Position) {
+  global.App.DB.Model(&models.Position{}).Where("pid = ?", Position_id.Pid).Update("status", 0)
+  return 
+}
   

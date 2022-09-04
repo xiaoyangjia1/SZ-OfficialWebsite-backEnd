@@ -27,3 +27,12 @@ func (position Position) GetMessages() ValidatorMessages {
 		"Head_count.required": "录取名额不能为空",
     }
 }
+
+type Position_id struct {
+	Pid string `form:"pid" json:"pid" binding:"required"`
+}
+func (position_id Position_id) GetMessages() ValidatorMessages {
+    return ValidatorMessages{
+		"Pid.required": "岗位ID不能为空",
+    }
+}

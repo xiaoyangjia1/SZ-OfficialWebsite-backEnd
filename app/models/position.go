@@ -5,6 +5,7 @@ import "strconv"
 type Position struct {
 	ID int
 	Pid string 
+	Status int
 	Title string 
 	Batch string 
 	Deadline string
@@ -16,6 +17,7 @@ type Position struct {
 	Interview int 
     Check1 int 
     Check2 int
+	Timestamps
 }
 func (Position) TableName() string {
 	return "position"

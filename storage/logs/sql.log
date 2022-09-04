@@ -487,3 +487,78 @@
 
 2022/09/04 13:21:06 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:42
 [21.319ms] [rows:1] SELECT * FROM `position`
+
+2022/09/04 13:32:35 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[11.874ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 13:32:45 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:42
+[8.012ms] [rows:14] SELECT * FROM `position`
+
+2022/09/04 13:38:50 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.294ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 13:39:00 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39
+[17.962ms] [rows:1] INSERT INTO `position` (`pid`,`state`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE',1,'前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,1,1,1,1)
+
+2022/09/04 13:39:10 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:43
+[9.861ms] [rows:15] SELECT * FROM `position`
+
+2022/09/04 15:09:41 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[4.770ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 15:09:50 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39
+[9.909ms] [rows:1] INSERT INTO `position` (`pid`,`status`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE',1,'前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,1,1,1,1)
+
+2022/09/04 15:10:08 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:43
+[0.680ms] [rows:1] SELECT * FROM `position`
+
+2022/09/04 15:12:41 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[7.583ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 15:12:53 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:47 sql: converting argument $2 type: unsupported type request.Position_id, a struct
+[1.397ms] [rows:0] UPDATE `position` SET `status`=0 WHERE pid = '{SZ2023FE}'
+
+2022/09/04 15:13:06 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:47 sql: converting argument $2 type: unsupported type request.Position_id, a struct
+[0.758ms] [rows:0] UPDATE `position` SET `status`=0 WHERE pid = '{SZ2023FE}'
+
+2022/09/04 15:15:33 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[14.114ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 15:15:47 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49 sql: converting argument $2 type: unsupported type request.Position_id, a struct
+[0.588ms] [rows:0] UPDATE `position` SET `status`=0 WHERE pid = '{SZ2023FE}'
+
+2022/09/04 15:30:00 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[15.331ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 15:30:13 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49 WHERE conditions required
+[12.391ms] [rows:0] UPDATE `position` SET `status`=0
+
+2022/09/04 15:35:07 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[6.334ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 15:35:24 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49
+[25.543ms] [rows:1] UPDATE `position` SET `status`=0 WHERE pid = 'SZ2023FE'
+
+2022/09/04 15:49:05 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.366ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 15:49:24 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49 Error 1054: Unknown column 'updated_at' in 'field list'
+[2.647ms] [rows:0] UPDATE `position` SET `status`=0,`updated_at`='2022-09-04 15:49:24.851' WHERE pid = 'SZ2023FE'
+
+2022/09/04 15:51:10 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39 Error 1054: Unknown column 'created_at' in 'field list'
+[2.812ms] [rows:0] INSERT INTO `position` (`pid`,`status`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`,`created_at`,`updated_at`) VALUES ('SZ2023FE',1,'前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,1,1,1,1,'2022-09-04 15:51:10.799','2022-09-04 15:51:10.799')
+
+2022/09/04 15:53:53 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39 Error 1054: Unknown column 'updated_at' in 'field list'
+[1.501ms] [rows:0] INSERT INTO `position` (`pid`,`status`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`,`created_at`,`updated_at`) VALUES ('SZ2023FE',1,'前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,1,1,1,1,'2022-09-04 15:53:53.495','2022-09-04 15:53:53.495')
+
+2022/09/04 15:54:27 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39
+[4.168ms] [rows:1] INSERT INTO `position` (`pid`,`status`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`,`created_at`,`updated_at`) VALUES ('SZ2023FE',1,'前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,1,1,1,1,'2022-09-04 15:54:27.467','2022-09-04 15:54:27.467')
+
+2022/09/04 15:54:41 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:43
+[1.073ms] [rows:2] SELECT * FROM `position`
+
+2022/09/04 15:54:59 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49
+[9.287ms] [rows:2] UPDATE `position` SET `status`=0,`updated_at`='2022-09-04 15:54:59.208' WHERE pid = 'SZ2023FE'
+
+2022/09/04 15:55:05 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:43
+[1.063ms] [rows:2] SELECT * FROM `position`
