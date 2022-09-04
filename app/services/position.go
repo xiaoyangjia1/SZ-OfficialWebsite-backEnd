@@ -38,3 +38,8 @@ func (positionService *positionService) PostJob(params request.Position) (err er
     err = global.App.DB.Create(&position).Error
     return
 }
+func (positionService *positionService) GetJobs() (err error, position []models.Position) {
+    err = global.App.DB.Find(&position).Error
+    return 
+  }
+  

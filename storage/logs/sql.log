@@ -475,3 +475,15 @@
 
 2022/09/04 12:30:13 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39
 [14.032ms] [rows:1] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE','前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,0,1,1,1)
+
+2022/09/04 12:31:25 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.896ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 12:31:35 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39
+[9.988ms] [rows:1] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE','前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,0,1,1,1)
+
+2022/09/04 13:20:51 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[14.770ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 13:21:06 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:42
+[21.319ms] [rows:1] SELECT * FROM `position`

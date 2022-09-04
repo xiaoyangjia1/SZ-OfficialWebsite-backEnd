@@ -21,3 +21,11 @@ func PostJob(c *gin.Context) {
     } 
     response.Success(c, jobData)
 }
+func GetJobs(c *gin.Context) {
+    err, jobs := services.PositionService.GetJobs(); 
+    if err != nil {
+        response.BusinessFail(c, err.Error())
+        return
+    } 
+    response.Success(c, jobs)
+}
