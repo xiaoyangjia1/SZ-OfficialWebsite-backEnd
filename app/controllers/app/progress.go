@@ -34,3 +34,18 @@ func GetDeliveredJob(c *gin.Context) {
     } 
     response.Success(c, res)
 }
+
+func SubmitEpicycleResult(c *gin.Context) {
+    var form request.Submit_epicycle_result
+    if err := c.ShouldBindJSON(&form); err != nil {
+        response.ValidateFail(c, request.GetErrorMsg(form, err))
+        return
+    }
+    err, res := services.ProgressService.SubmitEpicycleResult(form); 
+    if err != nil {
+        response.BusinessFail(c, err.Error())
+        return
+    } 
+    response.Success(c, res)
+}
+

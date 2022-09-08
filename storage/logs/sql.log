@@ -742,3 +742,18 @@
 
 2022/09/08 15:28:03 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
 [4.767ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 15:33:52 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[11.894ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 15:34:30 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/resume.go:34
+[3.369ms] [rows:0] SELECT * FROM `resume` WHERE sid = '3119005076'
+
+2022/09/08 15:34:51 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/resume.go:34
+[0.671ms] [rows:1] SELECT * FROM `resume` WHERE sid = '3119005073'
+
+2022/09/08 17:32:58 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[24.034ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 17:33:47 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:38
+[33.844ms] [rows:1] UPDATE `progress` SET `test`=2,`updated_at`='2022-09-08 17:33:47.355' WHERE pid = 'SZ2023FE' AND sid = '3119005075'

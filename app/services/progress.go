@@ -33,4 +33,10 @@ func (progressService *progressService) GetDeliveredJob(params request.Sid) (err
   err = global.App.DB.Where("sid = ?", params.Sid).Find(&progress).Error
   return 
 }
+
+func (progressService *progressService) SubmitEpicycleResult(params request.Submit_epicycle_result) (err error, progress models.Progress) {
+  global.App.DB.Model(&progress).Where("pid = ?",params.Pid).Where("sid = ?",params.Sid).Update(params.Epicycle,params.Result)
+  return 
+}
+  
   
