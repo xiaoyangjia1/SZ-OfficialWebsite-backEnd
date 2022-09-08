@@ -29,3 +29,9 @@ func (resumeService *resumeService) SubmitResume(params request.Resume) (err err
     err = global.App.DB.Create(&resume).Error
     return
 }
+
+func (resumeService *resumeService) GetResumeById(params request.Sid) (err error, resume models.Resume) {
+    err = global.App.DB.Where("sid = ?", params.Sid).Find(&resume).Error
+    return
+}
+

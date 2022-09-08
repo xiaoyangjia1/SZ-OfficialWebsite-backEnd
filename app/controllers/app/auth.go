@@ -44,18 +44,3 @@ func Info(c *gin.Context) {
     }
     response.Success(c, user)
 }
-
-func SubmitResume(c *gin.Context) {
-    var form request.Resume
-    if err := c.ShouldBindJSON(&form); err != nil {
-        response.ValidateFail(c, request.GetErrorMsg(form, err))
-        return
-    }
-
-    err, resume := services.ResumeService.SubmitResume(form); 
-    if err != nil {
-        response.BusinessFail(c, err.Error())
-        return
-    } 
-    response.Success(c, resume)
-}

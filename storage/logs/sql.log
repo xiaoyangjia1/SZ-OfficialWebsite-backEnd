@@ -730,3 +730,15 @@
 
 2022/09/08 12:30:48 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:28
 [1.687ms] [rows:1] INSERT INTO `progress` (`pid`,`sid`,`test`,`interview`,`check1`,`check2`,`offer`,`files1`,`files2`,`link1`,`link2`,`created_at`,`updated_at`) VALUES ('SZ2023FE','3119005076',1,1,1,1,0,'','','','','2022-09-08 12:30:48.103','2022-09-08 12:30:48.103')
+
+2022/09/08 12:54:05 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[12.061ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 12:55:14 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:33
+[4.068ms] [rows:0] SELECT * FROM `progress` WHERE sid = '3119005074'
+
+2022/09/08 12:55:41 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:33
+[0.663ms] [rows:1] SELECT * FROM `progress` WHERE sid = '3119005075'
+
+2022/09/08 15:28:03 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[4.767ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1

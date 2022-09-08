@@ -599,3 +599,5 @@ C:/Program Files/Go/src/runtime/asm_amd64.s:1594 (0xbb7360)
 [2022-09-08 12:22:30.538]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
 [2022-09-08 12:25:10.327]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
 [2022-09-08 12:27:25.247]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-08 12:44:26.291]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-08 15:26:25.873]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
