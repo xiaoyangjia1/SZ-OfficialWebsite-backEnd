@@ -562,3 +562,108 @@
 
 2022/09/04 15:55:05 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:43
 [1.063ms] [rows:2] SELECT * FROM `position`
+
+2022/09/07 22:06:28 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[44.416ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:08:05 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[11.266ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:10:41 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[0.856ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:15:22 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.878ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:17:13 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:19
+[1.099ms] [rows:1] SELECT `id` FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:18:38 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[0.966ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:19:42 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[1.506ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:20:09 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[0.825ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:27:01 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.721ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:27:11 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:41
+[3.425ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = 5 ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:27:24 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:43
+[5.496ms] [rows:2] SELECT * FROM `position`
+
+2022/09/07 22:27:35 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:47
+[21.347ms] [rows:2] UPDATE `position` SET `status`=0,`updated_at`='2022-09-07 22:27:35.162' WHERE pid = 'SZ2023FE'
+
+2022/09/07 22:40:39 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[11.417ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:40:51 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:48
+[8.950ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/07 22:40:51 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49
+[7.007ms] [rows:2] UPDATE `position` SET `status`=0,`updated_at`='2022-09-07 22:40:51.566' WHERE pid = 'SZ2023FE'
+
+2022/09/07 23:17:09 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[8.471ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 23:17:20 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49
+[13.931ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/07 23:17:20 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:52
+[42.436ms] [rows:2] UPDATE `position` SET `status`=0,`updated_at`='2022-09-07 23:17:20.572' WHERE pid = 'SZ2023FE'
+
+2022/09/07 23:27:59 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[11.175ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 23:28:02 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49
+[4.176ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/07 23:28:02 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:53
+[5.976ms] [rows:2] UPDATE `position` SET `status`=0,`updated_at`='2022-09-07 23:28:02.548' WHERE pid = 'SZ2023FE'
+
+2022/09/07 23:32:37 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[2.712ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 23:32:42 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49
+[5.582ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/07 23:32:42 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:53
+[7.544ms] [rows:2] UPDATE `position` SET `status`=-1,`updated_at`='2022-09-07 23:32:42.742' WHERE pid = 'SZ2023FE'
+
+2022/09/07 23:38:53 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[5.285ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 23:39:16 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39
+[8.974ms] [rows:1] INSERT INTO `position` (`pid`,`status`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`,`created_at`,`updated_at`) VALUES ('SZ2023FE',1,'前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,1,1,1,1,'2022-09-07 23:39:16.509','2022-09-07 23:39:16.509')
+
+2022/09/07 23:39:27 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49
+[0.790ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/07 23:39:27 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:53
+[7.611ms] [rows:1] UPDATE `position` SET `status`=0,`updated_at`='2022-09-07 23:39:27.714' WHERE pid = 'SZ2023FE'
+
+2022/09/07 23:39:38 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49
+[1.842ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/07 23:39:38 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:53
+[6.176ms] [rows:1] UPDATE `position` SET `status`=1,`updated_at`='2022-09-07 23:39:38.05' WHERE pid = 'SZ2023FE'
+
+2022/09/07 23:44:03 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.422ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 23:44:11 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:48
+[2.717ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/07 23:44:11 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:50
+[5.474ms] [rows:1] UPDATE `position` SET `status`=0,`updated_at`='2022-09-07 23:44:11.777' WHERE pid = 'SZ2023FE'
+
+2022/09/07 23:44:28 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:48
+[0.745ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/07 23:44:28 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:50
+[12.504ms] [rows:1] UPDATE `position` SET `status`=1,`updated_at`='2022-09-07 23:44:28.595' WHERE pid = 'SZ2023FE'

@@ -43,8 +43,11 @@ func (positionService *positionService) GetJobs() (err error, position []models.
     err = global.App.DB.Find(&position).Error
     return 
 }
-func (positionService *positionService) ChangeJobStatus(Position_id request.Position_id) (err error, position models.Position) {
-  global.App.DB.Model(&models.Position{}).Where("pid = ?", Position_id.Pid).Update("status", 0)
+func (positionService *positionService) ChangeJobStatus(Position_id request.Position_id) (err error, newStatus int) {
+  var position1 models.Position
+  global.App.DB.First(&position1, "pid = ?", Position_id.Pid)
+  newStatus =1^position1.Status
+  global.App.DB.Model(&models.Position{}).Where("pid = ?", Position_id.Pid).Update("status",newStatus)
   return 
 }
   
