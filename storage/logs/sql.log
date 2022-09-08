@@ -667,3 +667,66 @@
 
 2022/09/07 23:44:28 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:50
 [12.504ms] [rows:1] UPDATE `position` SET `status`=1,`updated_at`='2022-09-07 23:44:28.595' WHERE pid = 'SZ2023FE'
+
+2022/09/08 10:24:45 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[18.623ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 10:25:02 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:56
+[19.334ms] [rows:1] DELETE FROM `position` WHERE pid = 'SZ2023FE'
+
+2022/09/08 10:25:23 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39
+[8.782ms] [rows:1] INSERT INTO `position` (`pid`,`status`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`,`created_at`,`updated_at`) VALUES ('SZ2023FE',1,'前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,1,1,1,1,'2022-09-08 10:25:23.925','2022-09-08 10:25:23.925')
+
+2022/09/08 10:25:33 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:56
+[1.227ms] [rows:1] DELETE FROM `position` WHERE pid = 'SZ2023FE'
+
+2022/09/08 10:57:40 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[4.031ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 10:57:59 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/delivery.go:21
+[5.899ms] [rows:1] INSERT INTO `delivery` (`pid`,`sid`) VALUES ('SZ2023FE','3119005073')
+
+2022/09/08 10:58:45 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/delivery.go:21
+[4.348ms] [rows:1] INSERT INTO `delivery` (`pid`,`sid`) VALUES ('SZ2023FE','3119005074')
+
+2022/09/08 12:22:44 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[8.020ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 12:23:03 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:17 record not found
+[3.268ms] [rows:0] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/08 12:23:03 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:28 Error 1364: Field 'id' doesn't have a default value
+[2.839ms] [rows:0] INSERT INTO `progress` (`pid`,`sid`,`test`,`interview`,`check1`,`check2`,`offer`,`files1`,`files2`,`link1`,`link2`,`created_at`,`updated_at`) VALUES ('SZ2023FE','3119005075',0,0,0,0,0,'','','','','2022-09-08 12:23:03.836','2022-09-08 12:23:03.836')
+
+2022/09/08 12:26:13 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[6.761ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 12:26:23 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:17 record not found
+[12.140ms] [rows:0] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/08 12:26:23 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:28 Error 1364: Field 'id' doesn't have a default value
+[3.872ms] [rows:0] INSERT INTO `progress` (`pid`,`sid`,`test`,`interview`,`check1`,`check2`,`offer`,`files1`,`files2`,`link1`,`link2`,`created_at`,`updated_at`) VALUES ('SZ2023FE','3119005075',0,0,0,0,0,'','','','','2022-09-08 12:26:23.883','2022-09-08 12:26:23.883')
+
+2022/09/08 12:28:46 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.487ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 12:28:57 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:17 record not found
+[5.449ms] [rows:0] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/08 12:28:57 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:28 Error 1364: Field 'id' doesn't have a default value
+[2.659ms] [rows:0] INSERT INTO `progress` (`pid`,`sid`,`test`,`interview`,`check1`,`check2`,`offer`,`files1`,`files2`,`link1`,`link2`,`created_at`,`updated_at`) VALUES ('SZ2023FE','3119005075',0,0,0,0,0,'','','','','2022-09-08 12:28:57.237','2022-09-08 12:28:57.237')
+
+2022/09/08 12:29:37 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:17 record not found
+[0.775ms] [rows:0] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/08 12:29:37 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:28
+[5.825ms] [rows:1] INSERT INTO `progress` (`pid`,`sid`,`test`,`interview`,`check1`,`check2`,`offer`,`files1`,`files2`,`link1`,`link2`,`created_at`,`updated_at`) VALUES ('SZ2023FE','3119005075',0,0,0,0,0,'','','','','2022-09-08 12:29:37.477','2022-09-08 12:29:37.477')
+
+2022/09/08 12:30:29 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39
+[8.113ms] [rows:1] INSERT INTO `position` (`pid`,`status`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`,`created_at`,`updated_at`) VALUES ('SZ2023FE',1,'前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,1,1,1,1,'2022-09-08 12:30:29.358','2022-09-08 12:30:29.358')
+
+2022/09/08 12:30:48 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:17
+[0.693ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/08 12:30:48 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:28
+[1.687ms] [rows:1] INSERT INTO `progress` (`pid`,`sid`,`test`,`interview`,`check1`,`check2`,`offer`,`files1`,`files2`,`link1`,`link2`,`created_at`,`updated_at`) VALUES ('SZ2023FE','3119005076',1,1,1,1,0,'','','','','2022-09-08 12:30:48.103','2022-09-08 12:30:48.103')

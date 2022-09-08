@@ -20,5 +20,8 @@ func SetApiGroupRoutes(router *gin.RouterGroup) {
         authRouter.POST("/auth/postJob", app.PostJob)
         authRouter.GET("/auth/getJobs", app.GetJobs)
         authRouter.POST("/auth/changeJobStatus", app.ChangeJobStatus)
+        authRouter.POST("/auth/deleteJob", app.DeleteJob)
+        authRouter.POST("/auth/deliveryJob", app.DeliveryJob)
+        authRouter.POST("/auth/getDeliveredJob", app.GetDeliveredJob)
     }
 }

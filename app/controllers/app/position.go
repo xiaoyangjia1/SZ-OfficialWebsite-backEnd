@@ -44,3 +44,16 @@ func ChangeJobStatus(c *gin.Context) {
     } 
     response.Success(c, newStatus)
 }
+func DeleteJob(c *gin.Context) {
+    var form request.Position_id
+    if err := c.ShouldBindJSON(&form); err != nil {
+        response.ValidateFail(c, request.GetErrorMsg(form, err))
+        return
+    }
+    err, res := services.PositionService.DeleteJob(form); 
+    if err != nil {
+        response.BusinessFail(c, err.Error())
+        return
+    } 
+    response.Success(c, res)
+}

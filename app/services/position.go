@@ -51,3 +51,12 @@ func (positionService *positionService) ChangeJobStatus(Position_id request.Posi
   return 
 }
   
+func (positionService *positionService) DeleteJob(Position_id request.Position_id) (err error, position models.Position) {
+  // var position models.Position
+  global.App.DB.Where("pid = ?", Position_id.Pid).Delete(&position)
+  // global.App.DB.First(&position1, "pid = ?", Position_id.Pid)
+  // newStatus =1^position1.Status
+  // global.App.DB.Model(&models.Position{}).Where("pid = ?", Position_id.Pid).Update("status",newStatus)
+  return 
+}
+  
