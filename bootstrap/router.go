@@ -19,7 +19,7 @@ func setupRouter() *gin.Engine {
         gin.SetMode(gin.ReleaseMode)
     }
     router := gin.New()
-    router.Use(gin.Logger(), middleware.CustomRecovery())
+    router.Use(gin.Logger(), middleware.CustomRecovery(),middleware.Cors())
 
 
 
