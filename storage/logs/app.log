@@ -261,3 +261,346 @@ C:/Program Files/Go/src/runtime/asm_amd64.s:1594 (0xa97360)
 [0m
 [2022-09-02 22:55:46.525]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
 [2022-09-02 22:57:47.467]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-02 23:29:19.841]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-03 21:52:12.864]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-03 22:08:59.889]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-03 22:12:22.515]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-03 22:25:27.877]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-03 22:28:43.689]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-03 22:41:40.855]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-03 22:48:12.131]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-03 22:55:59.927]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-03 22:57:51.154]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-03 23:02:47.314]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-03 23:05:57.934]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-03 23:08:21.090]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 01:17:10.549]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 01:25:44.485]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 01:29:08.686]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 01:32:48.089]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 09:49:43.619]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 09:51:51.815]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 10:01:54.405]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 10:09:21.933]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 10:13:32.574]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 10:15:18.259]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 10:18:19.454]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 10:23:21.714]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 10:27:34.131]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 10:32:55.727]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 10:34:33.698]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 10:37:28.382]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 10:44:06.286]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 10:45:08.968]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 10:50:25.970]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 10:53:26.209]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 11:03:05.042]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 11:10:20.713]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 11:13:14.082]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 11:18:09.861]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 11:20:39.415]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 11:24:54.968]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 11:27:29.105]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 11:37:48.549]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 11:41:03.137]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 11:44:25.627]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 11:47:15.411]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 11:56:50.347]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 11:59:54.356]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 12:06:21.448]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 12:12:44.684]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 12:16:09.497]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 12:18:04.703]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 12:20:06.964]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 12:28:00.835]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 12:31:06.781]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 13:19:17.014]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 13:20:40.911]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 13:32:28.212]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 13:37:46.012]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 15:09:28.679]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 15:12:28.221]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 15:15:20.618]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 15:29:47.720]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 15:33:45.223]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-04 15:48:36.886]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-07 22:05:32.342]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-07 22:05:40.697]	local.error	bootstrap/redis.go:19	Redis connect ping failed, err:	{"err": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+
+
+[31m2022/09/07 22:06:57 [Recovery] 2022/09/07 - 22:06:57 panic recovered:
+GET /api/auth/getJobs HTTP/1.1
+Host: localhost:8888
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Authorization: *
+Connection: keep-alive
+Postman-Token: ea880e67-0993-438f-af2f-7b1002f3fbb7
+User-Agent: PostmanRuntime/7.29.2
+
+
+runtime error: invalid memory address or nil pointer dereference
+C:/Program Files/Go/src/runtime/panic.go:260 (0xb9c735)
+	panicmem: panic(memoryError)
+C:/Program Files/Go/src/runtime/signal_windows.go:255 (0xb9c705)
+	sigpanic: panicmem()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/jwt.go:79 (0x128c2d8)
+	(*jwtService).IsInBlacklist: joinUnixStr, err := global.App.Redis.Get(context.Background(), jwtService.getBlackListKey(tokenStr)).Result()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/middleware/jwt.go:27 (0x128ed10)
+	JWTAuth.func1: if err != nil || services.JwtService.IsInBlacklist(tokenStr) {
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127c761)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 (0x127c74c)
+	CustomRecoveryWithWriter.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127b866)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 (0x127b849)
+	LoggerWithConfig.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127a970)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 (0x127a5d8)
+	(*Engine).handleHTTPRequest: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 (0x127a11c)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+C:/Program Files/Go/src/net/http/server.go:2947 (0xe7932b)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+C:/Program Files/Go/src/net/http/server.go:1991 (0xe74546)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+C:/Program Files/Go/src/runtime/asm_amd64.s:1594 (0xbb7360)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/09/07 22:08:00 [Recovery] 2022/09/07 - 22:08:00 panic recovered:
+GET /api/auth/getJobs HTTP/1.1
+Host: localhost:8888
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Authorization: *
+Connection: keep-alive
+Postman-Token: 612b0657-6fc1-4616-b0be-ca5e0e115a0e
+User-Agent: PostmanRuntime/7.29.2
+
+
+runtime error: invalid memory address or nil pointer dereference
+C:/Program Files/Go/src/runtime/panic.go:260 (0xb9c735)
+	panicmem: panic(memoryError)
+C:/Program Files/Go/src/runtime/signal_windows.go:255 (0xb9c705)
+	sigpanic: panicmem()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/jwt.go:79 (0x128c2d8)
+	(*jwtService).IsInBlacklist: joinUnixStr, err := global.App.Redis.Get(context.Background(), jwtService.getBlackListKey(tokenStr)).Result()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/middleware/jwt.go:27 (0x128ed10)
+	JWTAuth.func1: if err != nil || services.JwtService.IsInBlacklist(tokenStr) {
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127c761)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 (0x127c74c)
+	CustomRecoveryWithWriter.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127b866)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 (0x127b849)
+	LoggerWithConfig.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127a970)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 (0x127a5d8)
+	(*Engine).handleHTTPRequest: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 (0x127a11c)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+C:/Program Files/Go/src/net/http/server.go:2947 (0xe7932b)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+C:/Program Files/Go/src/net/http/server.go:1991 (0xe74546)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+C:/Program Files/Go/src/runtime/asm_amd64.s:1594 (0xbb7360)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/09/07 22:08:18 [Recovery] 2022/09/07 - 22:08:18 panic recovered:
+GET /api/auth/getJobs HTTP/1.1
+Host: localhost:8888
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Authorization: *
+Connection: keep-alive
+Postman-Token: b8ad65c5-20e9-4006-bd7e-d6112e0c09f8
+User-Agent: PostmanRuntime/7.29.2
+
+
+runtime error: invalid memory address or nil pointer dereference
+C:/Program Files/Go/src/runtime/panic.go:260 (0xb9c735)
+	panicmem: panic(memoryError)
+C:/Program Files/Go/src/runtime/signal_windows.go:255 (0xb9c705)
+	sigpanic: panicmem()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/jwt.go:79 (0x128c2d8)
+	(*jwtService).IsInBlacklist: joinUnixStr, err := global.App.Redis.Get(context.Background(), jwtService.getBlackListKey(tokenStr)).Result()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/middleware/jwt.go:27 (0x128ed10)
+	JWTAuth.func1: if err != nil || services.JwtService.IsInBlacklist(tokenStr) {
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127c761)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 (0x127c74c)
+	CustomRecoveryWithWriter.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127b866)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 (0x127b849)
+	LoggerWithConfig.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127a970)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 (0x127a5d8)
+	(*Engine).handleHTTPRequest: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 (0x127a11c)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+C:/Program Files/Go/src/net/http/server.go:2947 (0xe7932b)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+C:/Program Files/Go/src/net/http/server.go:1991 (0xe74546)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+C:/Program Files/Go/src/runtime/asm_amd64.s:1594 (0xbb7360)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/09/07 22:10:53 [Recovery] 2022/09/07 - 22:10:53 panic recovered:
+POST /api/auth/logout HTTP/1.1
+Host: localhost:8888
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Authorization: *
+Connection: keep-alive
+Content-Length: 0
+Postman-Token: 2a2ca70c-d493-4298-8ec6-70a18b862d22
+User-Agent: PostmanRuntime/7.29.2
+
+
+runtime error: invalid memory address or nil pointer dereference
+C:/Program Files/Go/src/runtime/panic.go:260 (0xb9c735)
+	panicmem: panic(memoryError)
+C:/Program Files/Go/src/runtime/signal_windows.go:255 (0xb9c705)
+	sigpanic: panicmem()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/jwt.go:79 (0x128c2d8)
+	(*jwtService).IsInBlacklist: joinUnixStr, err := global.App.Redis.Get(context.Background(), jwtService.getBlackListKey(tokenStr)).Result()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/middleware/jwt.go:27 (0x128ed10)
+	JWTAuth.func1: if err != nil || services.JwtService.IsInBlacklist(tokenStr) {
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127c761)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 (0x127c74c)
+	CustomRecoveryWithWriter.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127b866)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 (0x127b849)
+	LoggerWithConfig.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127a970)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 (0x127a5d8)
+	(*Engine).handleHTTPRequest: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 (0x127a11c)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+C:/Program Files/Go/src/net/http/server.go:2947 (0xe7932b)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+C:/Program Files/Go/src/net/http/server.go:1991 (0xe74546)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+C:/Program Files/Go/src/runtime/asm_amd64.s:1594 (0xbb7360)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/09/07 22:15:37 [Recovery] 2022/09/07 - 22:15:37 panic recovered:
+POST /api/auth/info HTTP/1.1
+Host: localhost:8888
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Authorization: *
+Connection: keep-alive
+Content-Length: 0
+Postman-Token: 080e40da-a69f-4be9-ac1c-1f55dd78884f
+User-Agent: PostmanRuntime/7.29.2
+
+
+runtime error: invalid memory address or nil pointer dereference
+C:/Program Files/Go/src/runtime/panic.go:260 (0xb9c735)
+	panicmem: panic(memoryError)
+C:/Program Files/Go/src/runtime/signal_windows.go:255 (0xb9c705)
+	sigpanic: panicmem()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/jwt.go:79 (0x128c2d8)
+	(*jwtService).IsInBlacklist: joinUnixStr, err := global.App.Redis.Get(context.Background(), jwtService.getBlackListKey(tokenStr)).Result()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/middleware/jwt.go:27 (0x128ed10)
+	JWTAuth.func1: if err != nil || services.JwtService.IsInBlacklist(tokenStr) {
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127c761)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 (0x127c74c)
+	CustomRecoveryWithWriter.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127b866)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 (0x127b849)
+	LoggerWithConfig.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127a970)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 (0x127a5d8)
+	(*Engine).handleHTTPRequest: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 (0x127a11c)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+C:/Program Files/Go/src/net/http/server.go:2947 (0xe7932b)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+C:/Program Files/Go/src/net/http/server.go:1991 (0xe74546)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+C:/Program Files/Go/src/runtime/asm_amd64.s:1594 (0xbb7360)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2022/09/07 22:21:36 [Recovery] 2022/09/07 - 22:21:36 panic recovered:
+POST /api/auth/info HTTP/1.1
+Host: localhost:8888
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Authorization: *
+Connection: keep-alive
+Content-Length: 0
+Postman-Token: 6fe2cfda-75db-4cfe-b621-9d55f2afe452
+User-Agent: PostmanRuntime/7.29.2
+
+
+runtime error: invalid memory address or nil pointer dereference
+C:/Program Files/Go/src/runtime/panic.go:260 (0xb9c735)
+	panicmem: panic(memoryError)
+C:/Program Files/Go/src/runtime/signal_windows.go:255 (0xb9c705)
+	sigpanic: panicmem()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/jwt.go:79 (0x128c2d8)
+	(*jwtService).IsInBlacklist: joinUnixStr, err := global.App.Redis.Get(context.Background(), jwtService.getBlackListKey(tokenStr)).Result()
+G:/project/毕设/SZ-OfficialWebsite-backEnd/app/middleware/jwt.go:27 (0x128ed10)
+	JWTAuth.func1: if err != nil || services.JwtService.IsInBlacklist(tokenStr) {
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127c761)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 (0x127c74c)
+	CustomRecoveryWithWriter.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127b866)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 (0x127b849)
+	LoggerWithConfig.func1: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 (0x127a970)
+	(*Context).Next: c.handlers[c.index](c)
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 (0x127a5d8)
+	(*Engine).handleHTTPRequest: c.Next()
+C:/Users/yangqixiang/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 (0x127a11c)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+C:/Program Files/Go/src/net/http/server.go:2947 (0xe7932b)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+C:/Program Files/Go/src/net/http/server.go:1991 (0xe74546)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+C:/Program Files/Go/src/runtime/asm_amd64.s:1594 (0xbb7360)
+	goexit: BYTE	$0x90	// NOP
+[0m
+[2022-09-07 22:26:41.985]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-07 22:39:00.771]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-07 23:16:30.248]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-07 23:18:26.558]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-07 23:30:16.208]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-07 23:38:32.317]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-07 23:43:48.639]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-08 10:23:48.108]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-08 10:53:39.308]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-08 12:22:30.538]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-08 12:25:10.327]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-08 12:27:25.247]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-08 12:44:26.291]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-08 15:26:25.873]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-08 15:33:17.353]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-08 17:28:19.600]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!
+[2022-09-09 08:24:20.648]	local.info	SZ-OfficialWebsite-backEnd/main.go:14	log init success!

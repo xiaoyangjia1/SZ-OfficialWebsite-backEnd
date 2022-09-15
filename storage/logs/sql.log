@@ -193,3 +193,567 @@
 
 2022/09/02 22:58:26 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:41
 [5.229ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = 5 ORDER BY `user`.`id` LIMIT 1
+
+2022/09/03 20:49:59 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[91.007ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/03 21:52:58 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[8.534ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/03 22:09:53 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[5.708ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/03 22:25:43 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[9.803ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/03 22:31:10 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[5.025ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/03 22:31:23 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/resume.go:31 Error 1054: Unknown column 'we_chat' in 'field list'
+[8.545ms] [rows:0] INSERT INTO `resume` (`sid`,`phone`,`email`,`we_chat`,`sex`,`name`,`college`,`photo`,`learning`,`school_life`,`work_link`,`work_files`) VALUES ('','','','','','','','','','','','')
+
+2022/09/03 22:42:21 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[8.438ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/03 22:42:35 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/resume.go:31 Error 1366: Incorrect integer value: '' for column 'sex' at row 1
+[12.801ms] [rows:0] INSERT INTO `resume` (`sid`,`phone`,`email`,`wechat`,`sex`,`name`,`college`,`photo`,`learning`,`slife`,`link`,`files`) VALUES ('','','','','','','','','','','','')
+
+2022/09/03 22:48:25 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[7.094ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/03 22:48:39 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/resume.go:31
+[11.338ms] [rows:1] INSERT INTO `resume` (`sid`,`phone`,`email`,`wechat`,`sex`,`name`,`college`,`photo`,`learning`,`slife`,`link`,`files`) VALUES ('','','','',0,'','','','','','','')
+
+2022/09/03 22:56:12 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[9.551ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/03 22:59:11 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[13.229ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/03 23:02:24 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[1.425ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/03 23:03:08 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[19.692ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/03 23:03:33 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/resume.go:31 Error 1366: Incorrect string value: '\xE6\x9D\xA8\xE5\x90\xAF...' for column 'name' at row 1
+[9.371ms] [rows:0] INSERT INTO `resume` (`sid`,`phone`,`email`,`wechat`,`sex`,`name`,`college`,`photo`,`learning`,`slife`,`link`,`files`) VALUES ('3119005073','18927641546','3417982712@qq.com','yangqipa12138',1,'杨启香','计算机学院','https://image.uisdc.com/wp-content/uploads/2022/07/uisdc-hs-20220711-1.jpg','会三剑客','大地','https://xiaoyangjia1.github.io/','作品文件')
+
+2022/09/03 23:06:29 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.319ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/03 23:06:39 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/resume.go:31 Error 1366: Incorrect string value: '\xE6\x9D\xA8\xE5\x90\xAF...' for column 'name' at row 1
+[3.717ms] [rows:0] INSERT INTO `resume` (`sid`,`phone`,`email`,`wechat`,`sex`,`name`,`college`,`photo`,`learning`,`slife`,`link`,`files`) VALUES ('3119005073','18927641546','3417982712@qq.com','yangqipa12138',1,'杨启香','计算机学院','https://image.uisdc.com/wp-content/uploads/2022/07/uisdc-hs-20220711-1.jpg','会三剑客','大地','https://xiaoyangjia1.github.io/','作品文件')
+
+2022/09/03 23:08:33 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[6.704ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/03 23:08:42 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/resume.go:31 Error 1366: Incorrect string value: '\xE8\xAE\xA1\xE7\xAE\x97...' for column 'college' at row 1
+[15.074ms] [rows:0] INSERT INTO `resume` (`sid`,`phone`,`email`,`wechat`,`sex`,`name`,`college`,`photo`,`learning`,`slife`,`link`,`files`) VALUES ('3119005073','18927641546','3417982712@qq.com','yangqipa12138',1,'杨启香','计算机学院','https://image.uisdc.com/wp-content/uploads/2022/07/uisdc-hs-20220711-1.jpg','会三剑客','大地','https://xiaoyangjia1.github.io/','作品文件')
+
+2022/09/03 23:09:20 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/resume.go:31 Error 1406: Data too long for column 'photo' at row 1
+[2.071ms] [rows:0] INSERT INTO `resume` (`sid`,`phone`,`email`,`wechat`,`sex`,`name`,`college`,`photo`,`learning`,`slife`,`link`,`files`) VALUES ('3119005073','18927641546','3417982712@qq.com','yangqipa12138',1,'杨启香','计算机学院','https://image.uisdc.com/wp-content/uploads/2022/07/uisdc-hs-20220711-1.jpg','会三剑客','大地','https://xiaoyangjia1.github.io/','作品文件')
+
+2022/09/03 23:09:50 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/resume.go:31 Error 1366: Incorrect string value: '\xE4\xBD\x9C\xE5\x93\x81...' for column 'files' at row 1
+[7.747ms] [rows:0] INSERT INTO `resume` (`sid`,`phone`,`email`,`wechat`,`sex`,`name`,`college`,`photo`,`learning`,`slife`,`link`,`files`) VALUES ('3119005073','18927641546','3417982712@qq.com','yangqipa12138',1,'杨启香','计算机学院','https://image.uisdc.com/wp-content/uploads/2022/07/uisdc-hs-20220711-1.jpg','会三剑客','大地','https://xiaoyangjia1.github.io/','作品文件')
+
+2022/09/03 23:10:15 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/resume.go:31
+[12.341ms] [rows:1] INSERT INTO `resume` (`sid`,`phone`,`email`,`wechat`,`sex`,`name`,`college`,`photo`,`learning`,`slife`,`link`,`files`) VALUES ('3119005073','18927641546','3417982712@qq.com','yangqipa12138',1,'杨启香','计算机学院','https://image.uisdc.com/wp-content/uploads/2022/07/uisdc-hs-20220711-1.jpg','会三剑客','大地','https://xiaoyangjia1.github.io/','作品文件')
+
+2022/09/04 01:26:05 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[7.808ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 01:30:05 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[7.659ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 01:30:16 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:28 Error 1054: Unknown column 'apply_num' in 'field list'
+[3.776ms] [rows:0] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_num`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','','',0,'',0,0,0,0,0,0)
+
+2022/09/04 01:33:37 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.937ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 01:33:46 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:28 Error 1292: Incorrect datetime value: '' for column 'deadline' at row 1
+[9.449ms] [rows:0] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','','',0,'',0,0,0,0,0,0)
+
+2022/09/04 09:50:06 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[6.535ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 09:50:30 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:29 Error 1292: Incorrect datetime value: '' for column 'deadline' at row 1
+[5.900ms] [rows:0] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','','',0,'',0,0,0,0,0,0)
+
+2022/09/04 09:52:01 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.374ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 09:52:14 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:31 Error 1292: Incorrect datetime value: '' for column 'deadline' at row 1
+[22.476ms] [rows:0] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','','',0,'',0,0,0,0,0,0)
+
+2022/09/04 10:02:06 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[12.108ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 10:02:17 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:44 Error 1292: Incorrect datetime value: '' for column 'deadline' at row 1
+[10.723ms] [rows:0] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','','',0,'',0,0,0,0,0,0)
+
+2022/09/04 10:09:38 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[4.925ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 10:09:53 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:36 Error 1292: Incorrect datetime value: '-62135596800' for column 'deadline' at row 1
+[8.715ms] [rows:0] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','',-62135596800,0,'',0,0,0,0,0,0)
+
+2022/09/04 10:13:42 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[4.634ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 10:14:01 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:37 Error 1364: Field 'id' doesn't have a default value
+[9.582ms] [rows:0] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','',0,0,'',0,0,0,0,0,0)
+
+2022/09/04 10:14:12 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:37 Error 1364: Field 'id' doesn't have a default value
+[1.319ms] [rows:0] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','',0,0,'',0,0,0,0,0,0)
+
+2022/09/04 10:15:47 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[9.978ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 10:15:58 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:37
+[11.357ms] [rows:1] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','',0,0,'',0,0,0,0,0,0)
+
+2022/09/04 10:19:03 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[6.462ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 10:24:10 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[17.583ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 10:27:43 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[8.505ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 10:33:12 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[6.695ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 10:33:22 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:29 Error 1062: Duplicate entry '0' for key 'PRIMARY'
+[4.293ms] [rows:0] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE','','',0,'','',0,0,0,0,0,0)
+
+2022/09/04 10:34:08 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:29
+[8.175ms] [rows:1] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE','','',0,'','',0,0,0,0,0,0)
+
+2022/09/04 10:35:08 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.122ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 10:37:42 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.591ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 10:44:17 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[4.630ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 10:45:41 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.360ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 10:50:43 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[13.934ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 10:53:44 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[2.049ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 10:56:35 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/resume.go:29
+[6.355ms] [rows:1] INSERT INTO `resume` (`sid`,`phone`,`email`,`wechat`,`sex`,`name`,`college`,`photo`,`learning`,`slife`,`link`,`files`) VALUES ('3119005073','18927641546','3417982712@qq.com','yangqipa12138',1,'杨启香','计算机学院','https://image.uisdc.com/wp-content/uploads/2022/07/uisdc-hs-20220711-1.jpg','会三剑客','大地','https://xiaoyangjia1.github.io/','作品文件')
+
+2022/09/04 11:03:42 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[8.516ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 11:11:42 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[6.463ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 11:11:54 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/resume.go:31
+[13.116ms] [rows:1] INSERT INTO `resume` (`sid`,`phone`,`email`,`wechat`,`sex`,`name`,`college`,`photo`,`learning`,`slife`,`link`,`files`) VALUES ('3119005073','18927641546','3417982712@qq.com','yangqipa12138',1,'杨启香','计算机学院','https://image.uisdc.com/wp-content/uploads/2022/07/uisdc-hs-20220711-1.jpg','会三剑客','大地','https://xiaoyangjia1.github.io/','作品文件')
+
+2022/09/04 11:13:53 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[5.628ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 11:14:08 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:31
+[8.463ms] [rows:1] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE','','',0,'','',0,0,0,0,0,0)
+
+2022/09/04 11:14:19 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/resume.go:31
+[5.391ms] [rows:1] INSERT INTO `resume` (`sid`,`phone`,`email`,`wechat`,`sex`,`name`,`college`,`photo`,`learning`,`slife`,`link`,`files`) VALUES ('','','','',0,'','','','','','','')
+
+2022/09/04 11:18:23 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.981ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 11:20:49 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[5.417ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 11:25:07 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[8.224ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 11:27:37 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[7.034ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 11:28:15 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:31
+[11.627ms] [rows:1] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','',0,'','',0,0,0,0,0,0)
+
+2022/09/04 11:38:24 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[5.875ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 11:38:36 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:31
+[15.594ms] [rows:1] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','',0,'','',0,0,0,0,0,0)
+
+2022/09/04 11:41:40 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[7.228ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 11:41:48 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:31
+[11.119ms] [rows:1] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','',0,'','',0,0,0,0,0,0)
+
+2022/09/04 11:44:40 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[4.140ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 11:44:51 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:31
+[6.332ms] [rows:1] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','',0,'','',0,0,0,0,0,0)
+
+2022/09/04 11:44:59 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:31
+[3.434ms] [rows:1] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','',0,'','',0,0,0,0,0,0)
+
+2022/09/04 11:47:45 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[6.329ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 11:47:54 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:31
+[18.388ms] [rows:1] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','',0,'','',0,0,0,0,0,0)
+
+2022/09/04 11:55:05 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.570ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 11:55:16 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:31
+[7.215ms] [rows:1] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','',0,'','',0,0,0,0,0,0)
+
+2022/09/04 11:57:31 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[7.054ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 11:57:45 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:31
+[7.250ms] [rows:1] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','',0,'','',0,0,0,0,0,0)
+
+2022/09/04 12:00:44 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[7.038ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 12:00:52 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:32
+[7.579ms] [rows:1] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('','','',0,'','',0,0,0,0,0,0)
+
+2022/09/04 12:06:30 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[6.984ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 12:12:53 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[7.134ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 12:14:06 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:29 Error 1292: Incorrect datetime value: '1698937445' for column 'deadline' at row 1
+[13.618ms] [rows:0] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE','前端','2023招新',1698937445,'农产品','会js',0,3,0,1,1,1)
+
+2022/09/04 12:15:00 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:29 Error 1292: Incorrect datetime value: '1698937445' for column 'deadline' at row 1
+[2.447ms] [rows:0] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE','前端','2023招新',1698937445,'农产品','会js',0,3,0,1,1,1)
+
+2022/09/04 12:15:08 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:29 Error 1292: Incorrect datetime value: '1698937445' for column 'deadline' at row 1
+[2.224ms] [rows:0] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE','前端','2023招新',1698937445,'农产品','会js',0,3,0,1,1,1)
+
+2022/09/04 12:16:32 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[5.655ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 12:16:46 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:29 Error 1292: Incorrect datetime value: '1698937445' for column 'deadline' at row 1
+[4.887ms] [rows:0] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE','前端','2023招新',1698937445,'农产品','会js',0,3,0,1,1,1)
+
+2022/09/04 12:17:00 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:29 Error 1292: Incorrect datetime value: '1698937445' for column 'deadline' at row 1
+[2.855ms] [rows:0] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE','前端','2023招新',1698937445,'农产品','会js',0,3,0,1,1,1)
+
+2022/09/04 12:17:05 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:29 Error 1292: Incorrect datetime value: '1698937445' for column 'deadline' at row 1
+[1.875ms] [rows:0] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE','前端','2023招新',1698937445,'农产品','会js',0,3,0,1,1,1)
+
+2022/09/04 12:18:20 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[12.924ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 12:18:31 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:31 Error 1292: Incorrect datetime value: '1698937445' for column 'deadline' at row 1
+[26.548ms] [rows:0] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE','前端','2023招新',1698937445,'农产品','会js',0,3,0,1,1,1)
+
+2022/09/04 12:20:32 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.992ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 12:20:42 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:32 Error 1292: Incorrect datetime value: '1698937445' for column 'deadline' at row 1
+[15.357ms] [rows:0] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE','前端','2023招新',1698937445,'农产品','会js',0,3,0,1,1,1)
+
+2022/09/04 12:28:10 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[5.743ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 12:30:13 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39
+[14.032ms] [rows:1] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE','前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,0,1,1,1)
+
+2022/09/04 12:31:25 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.896ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 12:31:35 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39
+[9.988ms] [rows:1] INSERT INTO `position` (`pid`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE','前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,0,1,1,1)
+
+2022/09/04 13:20:51 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[14.770ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 13:21:06 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:42
+[21.319ms] [rows:1] SELECT * FROM `position`
+
+2022/09/04 13:32:35 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[11.874ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 13:32:45 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:42
+[8.012ms] [rows:14] SELECT * FROM `position`
+
+2022/09/04 13:38:50 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.294ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 13:39:00 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39
+[17.962ms] [rows:1] INSERT INTO `position` (`pid`,`state`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE',1,'前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,1,1,1,1)
+
+2022/09/04 13:39:10 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:43
+[9.861ms] [rows:15] SELECT * FROM `position`
+
+2022/09/04 15:09:41 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[4.770ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 15:09:50 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39
+[9.909ms] [rows:1] INSERT INTO `position` (`pid`,`status`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`) VALUES ('SZ2023FE',1,'前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,1,1,1,1)
+
+2022/09/04 15:10:08 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:43
+[0.680ms] [rows:1] SELECT * FROM `position`
+
+2022/09/04 15:12:41 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[7.583ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 15:12:53 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:47 sql: converting argument $2 type: unsupported type request.Position_id, a struct
+[1.397ms] [rows:0] UPDATE `position` SET `status`=0 WHERE pid = '{SZ2023FE}'
+
+2022/09/04 15:13:06 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:47 sql: converting argument $2 type: unsupported type request.Position_id, a struct
+[0.758ms] [rows:0] UPDATE `position` SET `status`=0 WHERE pid = '{SZ2023FE}'
+
+2022/09/04 15:15:33 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[14.114ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 15:15:47 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49 sql: converting argument $2 type: unsupported type request.Position_id, a struct
+[0.588ms] [rows:0] UPDATE `position` SET `status`=0 WHERE pid = '{SZ2023FE}'
+
+2022/09/04 15:30:00 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[15.331ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 15:30:13 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49 WHERE conditions required
+[12.391ms] [rows:0] UPDATE `position` SET `status`=0
+
+2022/09/04 15:35:07 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[6.334ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 15:35:24 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49
+[25.543ms] [rows:1] UPDATE `position` SET `status`=0 WHERE pid = 'SZ2023FE'
+
+2022/09/04 15:49:05 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.366ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/04 15:49:24 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49 Error 1054: Unknown column 'updated_at' in 'field list'
+[2.647ms] [rows:0] UPDATE `position` SET `status`=0,`updated_at`='2022-09-04 15:49:24.851' WHERE pid = 'SZ2023FE'
+
+2022/09/04 15:51:10 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39 Error 1054: Unknown column 'created_at' in 'field list'
+[2.812ms] [rows:0] INSERT INTO `position` (`pid`,`status`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`,`created_at`,`updated_at`) VALUES ('SZ2023FE',1,'前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,1,1,1,1,'2022-09-04 15:51:10.799','2022-09-04 15:51:10.799')
+
+2022/09/04 15:53:53 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39 Error 1054: Unknown column 'updated_at' in 'field list'
+[1.501ms] [rows:0] INSERT INTO `position` (`pid`,`status`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`,`created_at`,`updated_at`) VALUES ('SZ2023FE',1,'前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,1,1,1,1,'2022-09-04 15:53:53.495','2022-09-04 15:53:53.495')
+
+2022/09/04 15:54:27 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39
+[4.168ms] [rows:1] INSERT INTO `position` (`pid`,`status`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`,`created_at`,`updated_at`) VALUES ('SZ2023FE',1,'前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,1,1,1,1,'2022-09-04 15:54:27.467','2022-09-04 15:54:27.467')
+
+2022/09/04 15:54:41 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:43
+[1.073ms] [rows:2] SELECT * FROM `position`
+
+2022/09/04 15:54:59 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49
+[9.287ms] [rows:2] UPDATE `position` SET `status`=0,`updated_at`='2022-09-04 15:54:59.208' WHERE pid = 'SZ2023FE'
+
+2022/09/04 15:55:05 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:43
+[1.063ms] [rows:2] SELECT * FROM `position`
+
+2022/09/07 22:06:28 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[44.416ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:08:05 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[11.266ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:10:41 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[0.856ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:15:22 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.878ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:17:13 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:19
+[1.099ms] [rows:1] SELECT `id` FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:18:38 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[0.966ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:19:42 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[1.506ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:20:09 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[0.825ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:27:01 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.721ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:27:11 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:41
+[3.425ms] [rows:1] SELECT * FROM `user` WHERE `user`.`id` = 5 ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:27:24 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:43
+[5.496ms] [rows:2] SELECT * FROM `position`
+
+2022/09/07 22:27:35 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:47
+[21.347ms] [rows:2] UPDATE `position` SET `status`=0,`updated_at`='2022-09-07 22:27:35.162' WHERE pid = 'SZ2023FE'
+
+2022/09/07 22:40:39 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[11.417ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 22:40:51 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:48
+[8.950ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/07 22:40:51 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49
+[7.007ms] [rows:2] UPDATE `position` SET `status`=0,`updated_at`='2022-09-07 22:40:51.566' WHERE pid = 'SZ2023FE'
+
+2022/09/07 23:17:09 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[8.471ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 23:17:20 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49
+[13.931ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/07 23:17:20 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:52
+[42.436ms] [rows:2] UPDATE `position` SET `status`=0,`updated_at`='2022-09-07 23:17:20.572' WHERE pid = 'SZ2023FE'
+
+2022/09/07 23:27:59 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[11.175ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 23:28:02 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49
+[4.176ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/07 23:28:02 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:53
+[5.976ms] [rows:2] UPDATE `position` SET `status`=0,`updated_at`='2022-09-07 23:28:02.548' WHERE pid = 'SZ2023FE'
+
+2022/09/07 23:32:37 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[2.712ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 23:32:42 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49
+[5.582ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/07 23:32:42 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:53
+[7.544ms] [rows:2] UPDATE `position` SET `status`=-1,`updated_at`='2022-09-07 23:32:42.742' WHERE pid = 'SZ2023FE'
+
+2022/09/07 23:38:53 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[5.285ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 23:39:16 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39
+[8.974ms] [rows:1] INSERT INTO `position` (`pid`,`status`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`,`created_at`,`updated_at`) VALUES ('SZ2023FE',1,'前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,1,1,1,1,'2022-09-07 23:39:16.509','2022-09-07 23:39:16.509')
+
+2022/09/07 23:39:27 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49
+[0.790ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/07 23:39:27 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:53
+[7.611ms] [rows:1] UPDATE `position` SET `status`=0,`updated_at`='2022-09-07 23:39:27.714' WHERE pid = 'SZ2023FE'
+
+2022/09/07 23:39:38 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:49
+[1.842ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/07 23:39:38 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:53
+[6.176ms] [rows:1] UPDATE `position` SET `status`=1,`updated_at`='2022-09-07 23:39:38.05' WHERE pid = 'SZ2023FE'
+
+2022/09/07 23:44:03 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.422ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/07 23:44:11 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:48
+[2.717ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/07 23:44:11 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:50
+[5.474ms] [rows:1] UPDATE `position` SET `status`=0,`updated_at`='2022-09-07 23:44:11.777' WHERE pid = 'SZ2023FE'
+
+2022/09/07 23:44:28 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:48
+[0.745ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/07 23:44:28 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:50
+[12.504ms] [rows:1] UPDATE `position` SET `status`=1,`updated_at`='2022-09-07 23:44:28.595' WHERE pid = 'SZ2023FE'
+
+2022/09/08 10:24:45 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[18.623ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 10:25:02 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:56
+[19.334ms] [rows:1] DELETE FROM `position` WHERE pid = 'SZ2023FE'
+
+2022/09/08 10:25:23 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39
+[8.782ms] [rows:1] INSERT INTO `position` (`pid`,`status`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`,`created_at`,`updated_at`) VALUES ('SZ2023FE',1,'前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,1,1,1,1,'2022-09-08 10:25:23.925','2022-09-08 10:25:23.925')
+
+2022/09/08 10:25:33 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:56
+[1.227ms] [rows:1] DELETE FROM `position` WHERE pid = 'SZ2023FE'
+
+2022/09/08 10:57:40 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[4.031ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 10:57:59 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/delivery.go:21
+[5.899ms] [rows:1] INSERT INTO `delivery` (`pid`,`sid`) VALUES ('SZ2023FE','3119005073')
+
+2022/09/08 10:58:45 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/delivery.go:21
+[4.348ms] [rows:1] INSERT INTO `delivery` (`pid`,`sid`) VALUES ('SZ2023FE','3119005074')
+
+2022/09/08 12:22:44 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[8.020ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 12:23:03 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:17 record not found
+[3.268ms] [rows:0] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/08 12:23:03 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:28 Error 1364: Field 'id' doesn't have a default value
+[2.839ms] [rows:0] INSERT INTO `progress` (`pid`,`sid`,`test`,`interview`,`check1`,`check2`,`offer`,`files1`,`files2`,`link1`,`link2`,`created_at`,`updated_at`) VALUES ('SZ2023FE','3119005075',0,0,0,0,0,'','','','','2022-09-08 12:23:03.836','2022-09-08 12:23:03.836')
+
+2022/09/08 12:26:13 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[6.761ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 12:26:23 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:17 record not found
+[12.140ms] [rows:0] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/08 12:26:23 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:28 Error 1364: Field 'id' doesn't have a default value
+[3.872ms] [rows:0] INSERT INTO `progress` (`pid`,`sid`,`test`,`interview`,`check1`,`check2`,`offer`,`files1`,`files2`,`link1`,`link2`,`created_at`,`updated_at`) VALUES ('SZ2023FE','3119005075',0,0,0,0,0,'','','','','2022-09-08 12:26:23.883','2022-09-08 12:26:23.883')
+
+2022/09/08 12:28:46 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[3.487ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 12:28:57 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:17 record not found
+[5.449ms] [rows:0] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/08 12:28:57 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:28 Error 1364: Field 'id' doesn't have a default value
+[2.659ms] [rows:0] INSERT INTO `progress` (`pid`,`sid`,`test`,`interview`,`check1`,`check2`,`offer`,`files1`,`files2`,`link1`,`link2`,`created_at`,`updated_at`) VALUES ('SZ2023FE','3119005075',0,0,0,0,0,'','','','','2022-09-08 12:28:57.237','2022-09-08 12:28:57.237')
+
+2022/09/08 12:29:37 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:17 record not found
+[0.775ms] [rows:0] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/08 12:29:37 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:28
+[5.825ms] [rows:1] INSERT INTO `progress` (`pid`,`sid`,`test`,`interview`,`check1`,`check2`,`offer`,`files1`,`files2`,`link1`,`link2`,`created_at`,`updated_at`) VALUES ('SZ2023FE','3119005075',0,0,0,0,0,'','','','','2022-09-08 12:29:37.477','2022-09-08 12:29:37.477')
+
+2022/09/08 12:30:29 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/position.go:39
+[8.113ms] [rows:1] INSERT INTO `position` (`pid`,`status`,`title`,`batch`,`deadline`,`description`,`requirements`,`apply_number`,`head_count`,`test`,`interview`,`check1`,`check2`,`created_at`,`updated_at`) VALUES ('SZ2023FE',1,'前端','2023招新','2019-05-05 15:56:12','农产品','会js',0,3,1,1,1,1,'2022-09-08 12:30:29.358','2022-09-08 12:30:29.358')
+
+2022/09/08 12:30:48 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:17
+[0.693ms] [rows:1] SELECT * FROM `position` WHERE pid = 'SZ2023FE' ORDER BY `position`.`id` LIMIT 1
+
+2022/09/08 12:30:48 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:28
+[1.687ms] [rows:1] INSERT INTO `progress` (`pid`,`sid`,`test`,`interview`,`check1`,`check2`,`offer`,`files1`,`files2`,`link1`,`link2`,`created_at`,`updated_at`) VALUES ('SZ2023FE','3119005076',1,1,1,1,0,'','','','','2022-09-08 12:30:48.103','2022-09-08 12:30:48.103')
+
+2022/09/08 12:54:05 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[12.061ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 12:55:14 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:33
+[4.068ms] [rows:0] SELECT * FROM `progress` WHERE sid = '3119005074'
+
+2022/09/08 12:55:41 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:33
+[0.663ms] [rows:1] SELECT * FROM `progress` WHERE sid = '3119005075'
+
+2022/09/08 15:28:03 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[4.767ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 15:33:52 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[11.894ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 15:34:30 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/resume.go:34
+[3.369ms] [rows:0] SELECT * FROM `resume` WHERE sid = '3119005076'
+
+2022/09/08 15:34:51 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/resume.go:34
+[0.671ms] [rows:1] SELECT * FROM `resume` WHERE sid = '3119005073'
+
+2022/09/08 17:32:58 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/user.go:31
+[24.034ms] [rows:1] SELECT * FROM `user` WHERE email = '3417982712@qq.com' ORDER BY `user`.`id` LIMIT 1
+
+2022/09/08 17:33:47 G:/project/毕设/SZ-OfficialWebsite-backEnd/app/services/progress.go:38
+[33.844ms] [rows:1] UPDATE `progress` SET `test`=2,`updated_at`='2022-09-08 17:33:47.355' WHERE pid = 'SZ2023FE' AND sid = '3119005075'
